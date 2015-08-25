@@ -70,9 +70,3 @@ UITextField请继承PickerTextField
             println("您点击了完成按钮，当前选中第\(row)行，值为\(value)")
         }
 
-
-
-
-
-
-
