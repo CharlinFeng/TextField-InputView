@@ -14,11 +14,14 @@
 		89C5C0411B8B6953006F5A3F /* TextField_PickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */; };
 		89C5C0501B8B6964006F5A3F /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */; };
 		89C5C0511B8B6964006F5A3F /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */; };
-		89C5C0521B8B6964006F5A3F /* One+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04F1B8B6964006F5A3F /* One+String.swift */; };
+		89C5C0521B8B6964006F5A3F /* OneCol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04F1B8B6964006F5A3F /* OneCol.swift */; };
 		89C5C0541B8B69B5006F5A3F /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0531B8B69B5006F5A3F /* ListTVC.swift */; };
 		89C5C0571B8B6B39006F5A3F /* OneStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */; };
 		89C5C0581B8B6B39006F5A3F /* OneStringVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */; };
 		89C5C05A1B8B7672006F5A3F /* TextField+PickerView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0591B8B7672006F5A3F /* TextField+PickerView+Common.swift */; };
+		89CE80211B8C8421008BE863 /* OneModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CE801F1B8C8421008BE863 /* OneModelVC.swift */; };
+		89CE80221B8C8421008BE863 /* OneModelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89CE80201B8C8421008BE863 /* OneModelVC.xib */; };
+		89CE80241B8C8A67008BE863 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89CE80231B8C8A67008BE863 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +46,14 @@
 		89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_PickerViewTests.swift; sourceTree = "<group>"; };
 		89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
 		89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
-		89C5C04F1B8B6964006F5A3F /* One+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "One+String.swift"; sourceTree = "<group>"; };
+		89C5C04F1B8B6964006F5A3F /* OneCol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneCol.swift; sourceTree = "<group>"; };
 		89C5C0531B8B69B5006F5A3F /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
 		89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneStringVC.swift; sourceTree = "<group>"; };
 		89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneStringVC.xib; sourceTree = "<group>"; };
 		89C5C0591B8B7672006F5A3F /* TextField+PickerView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+PickerView+Common.swift"; sourceTree = "<group>"; };
+		89CE801F1B8C8421008BE863 /* OneModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneModelVC.swift; sourceTree = "<group>"; };
+		89CE80201B8C8421008BE863 /* OneModelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneModelVC.xib; sourceTree = "<group>"; };
+		89CE80231B8C8A67008BE863 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				89C5C0531B8B69B5006F5A3F /* ListTVC.swift */,
 				89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */,
 				89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */,
+				89CE801F1B8C8421008BE863 /* OneModelVC.swift */,
+				89CE80201B8C8421008BE863 /* OneModelVC.xib */,
 				89C5C02E1B8B6953006F5A3F /* Main.storyboard */,
 				89C5C0311B8B6953006F5A3F /* Images.xcassets */,
 				89C5C0331B8B6953006F5A3F /* LaunchScreen.xib */,
@@ -105,6 +113,7 @@
 		89C5C0281B8B6953006F5A3F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89CE80231B8C8A67008BE863 /* logo.jpg */,
 				89C5C0291B8B6953006F5A3F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -149,7 +158,7 @@
 		89C5C04E1B8B6964006F5A3F /* OneCol */ = {
 			isa = PBXGroup;
 			children = (
-				89C5C04F1B8B6964006F5A3F /* One+String.swift */,
+				89C5C04F1B8B6964006F5A3F /* OneCol.swift */,
 			);
 			path = OneCol;
 			sourceTree = "<group>";
@@ -238,7 +247,9 @@
 				89C5C0581B8B6B39006F5A3F /* OneStringVC.xib in Resources */,
 				89C5C0511B8B6964006F5A3F /* AccessoryView.xib in Resources */,
 				89C5C0351B8B6953006F5A3F /* LaunchScreen.xib in Resources */,
+				89CE80241B8C8A67008BE863 /* logo.jpg in Resources */,
 				89C5C0321B8B6953006F5A3F /* Images.xcassets in Resources */,
+				89CE80221B8C8421008BE863 /* OneModelVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +269,8 @@
 			files = (
 				89C5C0501B8B6964006F5A3F /* AccessoryView.swift in Sources */,
 				89C5C0541B8B69B5006F5A3F /* ListTVC.swift in Sources */,
-				89C5C0521B8B6964006F5A3F /* One+String.swift in Sources */,
+				89CE80211B8C8421008BE863 /* OneModelVC.swift in Sources */,
+				89C5C0521B8B6964006F5A3F /* OneCol.swift in Sources */,
 				89C5C02B1B8B6953006F5A3F /* AppDelegate.swift in Sources */,
 				89C5C0571B8B6B39006F5A3F /* OneStringVC.swift in Sources */,
 				89C5C05A1B8B7672006F5A3F /* TextField+PickerView+Common.swift in Sources */,
@@ -461,6 +473,7 @@
 				89C5C0461B8B6953006F5A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C5C0471B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+PickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				89C5C0491B8B6953006F5A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

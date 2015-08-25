@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneModelVC" customModule="TextField_PickerView" customModuleProvider="target">
+            <connections>
+                <outlet property="tf" destination="HQ7-N3-w5S" id="WQc-hS-por"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="p8S-YA-jBM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HQ7-N3-w5S" customClass="PickerTextField" customModule="TextField_PickerView" customModuleProvider="target">
+                    <rect key="frame" x="20" y="100" width="560" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="kRM-Ij-tWJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HQ7-N3-w5S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="XgR-ZW-l8o"/>
+                <constraint firstAttribute="trailing" secondItem="HQ7-N3-w5S" secondAttribute="trailing" constant="20" id="ezU-mb-lMg"/>
+                <constraint firstItem="HQ7-N3-w5S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="p3a-O6-1Wv"/>
+            </constraints>
+            <point key="canvasLocation" x="187" y="306"/>
+        </view>
+    </objects>
+</document>

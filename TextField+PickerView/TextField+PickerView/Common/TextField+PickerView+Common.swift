@@ -9,3 +9,9 @@
 import UIKit
 
 let BgColor = UIColor(red: 41, green: 41, blue: 41, alpha: 0.75)
+
+
+protocol PickerDataModelProtocol {
+    
+    var title: String! {get set}
+}

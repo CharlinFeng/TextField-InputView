@@ -13,7 +13,7 @@ class ListTVC: UITableViewController {
 
     let rid = "rid"
 
-    let dataList = ["单列+原始值"]
+    let dataList = ["单列+原始值","单列+模型值","更多功能请期待"]
     
 }
 
@@ -46,12 +46,19 @@ extension ListTVC{
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        if indexPath.row == 2 {return}
+        
         var vc: UIViewController = UIViewController()
         
         if indexPath.row == 0{
             
             vc = OneStringVC(nibName:"OneStringVC",bundle:nil)
             
+        }else if indexPath.row == 1 {
+            
+            vc = OneModelVC(nibName:"OneModelVC",bundle:nil)
         }
         
         vc.title = dataList[indexPath.row]

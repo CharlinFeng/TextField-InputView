@@ -5,10 +5,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--中国.成都.冯成林原创-->
         <scene sceneID="jjU-Ir-2Rm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pbb-8n-cN7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="h1b-Kr-g7r" customClass="ListTVC" customModule="TextField_PickerView" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Y9x-mo-4yt">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -19,10 +18,11 @@
                             <outlet property="delegate" destination="h1b-Kr-g7r" id="uIa-Hc-xhR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="TTu-zG-9ff"/>
+                    <navigationItem key="navigationItem" title="中国.成都.冯成林原创" id="TTu-zG-9ff"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pbb-8n-cN7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="450" y="551"/>
+            <point key="canvasLocation" x="426" y="400"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YC0-hC-7V1">
@@ -38,7 +38,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JwE-f9-2Ek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-370" y="550"/>
+            <point key="canvasLocation" x="-269" y="400"/>
         </scene>
     </scenes>
 </document>
