@@ -70,3 +70,9 @@ UITextField请继承PickerTextField
             println("您点击了完成按钮，当前选中第\(row)行，值为\(value)")
         }
 
+<br/><br/><br/>
+我的事业
+===============
+西成的事业，渺小而艰难的求生存。前期我们专做全国的移动app外包。如果您能在信息上援助我们，我们万分感谢您的帮助！<br/>
+西成：http://ios-android.cn <br/>
+我的个人微博：http://weibo.com/charlin2015/<br/>
