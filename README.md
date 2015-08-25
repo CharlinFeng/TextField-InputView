@@ -1,4 +1,4 @@
-![image](./TextField-PickerView/logo.jpg)
+![image](./TextField+PickerView/logo.jpg)
 <br/><br/>
 
 UITextField+PickerView
