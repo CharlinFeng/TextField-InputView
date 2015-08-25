@@ -29,6 +29,7 @@ UITextField请继承PickerTextField
 
 原始值的集成:
 
+
         /**  一句代码搞定  */
         tf.addOneColPickerViewWithTitles(["成都","北京","上海","广州"])
 
@@ -39,6 +40,7 @@ UITextField请继承PickerTextField
         let city1 = CityModel(title: "成都市", spell: "ChengDu")
         let city2 = CityModel(title: "南充市", spell: "NanChong")
         let city3 = CityModel(title: "南部县", spell: "NanBu")
+        
         /**  一句代码安装  */
         tf.addOneColPickerViewWithModels([city1,city2,city3])
 
