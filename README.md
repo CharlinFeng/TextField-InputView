@@ -27,14 +27,14 @@ UITextField请继承PickerTextField
 <br/><br/>
 #### 3.功能集成
 
-原始值的集成
+原始值的集成:
 
         /**  一句代码搞定  */
         tf.addOneColPickerViewWithTitles(["成都","北京","上海","广州"])
 
 
 <br/>
-模型值集成
+模型值集成(注：模型没有强行要求，只要满足PickerDataModelProtocol协议的模型均可):
 
         let city1 = CityModel(title: "成都市", spell: "ChengDu")
         let city2 = CityModel(title: "南充市", spell: "NanChong")
