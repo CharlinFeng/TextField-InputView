@@ -79,6 +79,8 @@ extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFie
     func textFieldDidBeginEditing(textField: UITextField) {
         if text.isEmpty {text = values[0]}
     }
+    
+    override func caretRectForPosition(position: UITextPosition!) -> CGRect {return CGRectZero}
 
     
 }
