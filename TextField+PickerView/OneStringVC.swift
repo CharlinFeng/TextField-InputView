@@ -18,21 +18,22 @@ class OneStringVC: UIViewController {
         
         super.viewDidLoad()
         
+        /**  一句代码搞定  */
         tf.addOneColOriginalPickerView(["成都","北京","上海","广州"])
         
-        tf.message = "请选择城市"
-        
+//        tf.message = "请选择城市"
+//        
 //        tf.pickerViewBgColor = UIColor.redColor()
-        
-        tf.selectedAction = {(row) in
-        
-            println("\(row)")
-        }
-        
-        tf.doneBtnActionClosure = {(row,value) in
-        
-            println("\(row),\(value)")
-        }
+//        
+//        tf.selectedAction = {(row) in
+//        
+//            println("\(row)")
+//        }
+//        
+//        tf.doneBtnActionClosure = {(row,value) in
+//        
+//            println("\(row),\(value)")
+//        }
         
     }
     
