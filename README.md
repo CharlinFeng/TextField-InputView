@@ -6,6 +6,7 @@ UITextField+PickerView
 <br/>
 .Swift 1.2<br/>
 .Xcode 6.3<br/>
+.基于MIT开源协议<br/>
 
 <br/>
 
@@ -27,12 +28,14 @@ UITextField请继承PickerTextField
 #### 3.功能集成
 
 原始值的集成
+
         /**  一句代码搞定  */
         tf.addOneColPickerViewWithTitles(["成都","北京","上海","广州"])
 
 
 <br/>
 模型值集成
+
         let city1 = CityModel(title: "成都市", spell: "ChengDu")
         let city2 = CityModel(title: "南充市", spell: "NanChong")
         let city3 = CityModel(title: "南部县", spell: "NanBu")
@@ -44,20 +47,24 @@ UITextField请继承PickerTextField
 得到当前的值,
 如果你是原始值，得到的是字符串。
 如果是模型值，得到的就是选中的模型。
+
         let value = tf.selectedPickerViewValue
 
 <br/><br/>
 #### 5.各种设置与事件
 移除工具条：
+
       tf.removeAccessoryView = true
 
 选中事件：
+
         tf.selectedAction = { row in
         
             println("选中了\(row)行")
         }
 
 点击了完成按钮事件,回调中的value请根据您的类型转换：
+
         tf.doneBtnActionClosure = { (row,value) in
         
             println("您点击了完成按钮，当前选中第\(row)行，值为\(value)")
