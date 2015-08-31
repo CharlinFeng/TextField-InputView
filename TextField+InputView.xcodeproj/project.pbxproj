@@ -13,7 +13,6 @@
 		893ACC331B94A32500BB9B44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC131B94A32500BB9B44 /* Images.xcassets */; };
 		893ACC341B94A32500BB9B44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC141B94A32500BB9B44 /* Info.plist */; };
 		893ACC351B94A32500BB9B44 /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC151B94A32500BB9B44 /* ListTVC.swift */; };
-		893ACC361B94A32500BB9B44 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC161B94A32500BB9B44 /* logo.jpg */; };
 		893ACC371B94A32500BB9B44 /* MulSelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC171B94A32500BB9B44 /* MulSelVC.swift */; };
 		893ACC381B94A32500BB9B44 /* MulSelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC181B94A32500BB9B44 /* MulSelVC.xib */; };
 		893ACC391B94A32500BB9B44 /* OneModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC191B94A32500BB9B44 /* OneModelVC.swift */; };
@@ -52,7 +51,6 @@
 		893ACC131B94A32500BB9B44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		893ACC141B94A32500BB9B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893ACC151B94A32500BB9B44 /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
-		893ACC161B94A32500BB9B44 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		893ACC171B94A32500BB9B44 /* MulSelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelVC.swift; sourceTree = "<group>"; };
 		893ACC181B94A32500BB9B44 /* MulSelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelVC.xib; sourceTree = "<group>"; };
 		893ACC191B94A32500BB9B44 /* OneModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneModelVC.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				893ACC131B94A32500BB9B44 /* Images.xcassets */,
 				893ACC141B94A32500BB9B44 /* Info.plist */,
 				893ACC151B94A32500BB9B44 /* ListTVC.swift */,
-				893ACC161B94A32500BB9B44 /* logo.jpg */,
 				893ACC171B94A32500BB9B44 /* MulSelVC.swift */,
 				893ACC181B94A32500BB9B44 /* MulSelVC.xib */,
 				893ACC191B94A32500BB9B44 /* OneModelVC.swift */,
@@ -278,7 +275,6 @@
 				893ACC461B94A32500BB9B44 /* resource.bundle in Resources */,
 				893ACC341B94A32500BB9B44 /* Info.plist in Resources */,
 				893ACC3C1B94A32500BB9B44 /* OneStringVC.xib in Resources */,
-				893ACC361B94A32500BB9B44 /* logo.jpg in Resources */,
 				893ACC381B94A32500BB9B44 /* MulSelVC.xib in Resources */,
 				893ACC331B94A32500BB9B44 /* Images.xcassets in Resources */,
 				893ACC3E1B94A32500BB9B44 /* AccessoryView.xib in Resources */,
