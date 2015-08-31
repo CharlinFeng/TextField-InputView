@@ -9,7 +9,7 @@
 import UIKit
 
 
-class PickerTextField: UITextField {
+class OneColTF: InputViewTextField {
     
     /**  API  */
     var pickerViewBgColor: UIColor = BgColor{didSet{bgColorSet()}}
@@ -22,10 +22,7 @@ class PickerTextField: UITextField {
     /**  Inner: orinal  */
     private var titles: [String]!
     private lazy var pickerView: UIPickerView = {UIPickerView()}()
-    private lazy var accessoryView: AccessoryView = {AccessoryView.instance()}()
-    
-    
-    /**  Inner: model  */
+    /**  model  */
     private var models: [PickerDataModelProtocol]!
     
     /**  common  */
@@ -33,7 +30,7 @@ class PickerTextField: UITextField {
     
 }
 
-extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFieldDelegate{
+extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     /**  添加一个单列的原始值的pickerView  */
     func addOneColPickerViewWithTitles(titles: [String]){
@@ -49,8 +46,7 @@ extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFie
         pickerView.delegate = self
         self.inputView = pickerView
     
-        self.inputAccessoryView = accessoryView
-        
+        accessoryView.hideCancelBtn=true
         accessoryView.doneBtnActionClosure = { [unowned self] in
         
             self.endEditing(true)
@@ -58,8 +54,6 @@ extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFie
         }
         
         bgColorSet()
-        
-        self.delegate = self
     }
     
     
@@ -77,8 +71,7 @@ extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFie
         pickerView.delegate = self
         self.inputView = pickerView
         
-        self.inputAccessoryView = accessoryView
-        
+        accessoryView.hideCancelBtn=true
         accessoryView.doneBtnActionClosure = { [unowned self] in
             
             self.endEditing(true)
@@ -86,8 +79,6 @@ extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFie
         }
         
         bgColorSet()
-        
-        self.delegate = self
     }
     
     
@@ -115,11 +106,12 @@ extension PickerTextField: UIPickerViewDelegate,UIPickerViewDataSource,UITextFie
         text = isModelData ? models[row].title : titles[row]
     }
     
-    func textFieldDidBeginEditing(textField: UITextField) {
+    override func textFieldDidBeginEditing(textField: UITextField) {
+        super.textFieldDidBeginEditing(textField)
         if text.isEmpty {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
     }
     
-    override func caretRectForPosition(position: UITextPosition!) -> CGRect {return CGRectZero}
+    
 
     
 }

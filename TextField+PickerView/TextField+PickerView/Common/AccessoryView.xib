@@ -19,15 +19,15 @@
                     <rect key="frame" x="0.0" y="0.0" width="506" height="44"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择您想要的数据" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gn4-X8-1eE">
-                            <rect key="frame" x="0.0" y="0.0" width="451" height="44"/>
+                            <rect key="frame" x="60" y="0.0" width="386" height="44"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" red="0.53952508219999995" green="0.55258018090000005" blue="0.53232935859999997" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTa-HA-txc">
-                            <rect key="frame" x="451" y="5" width="45" height="33"/>
+                            <rect key="frame" x="446" y="5" width="60" height="33"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="45" id="eRb-Nm-Isb"/>
+                                <constraint firstAttribute="width" constant="60" id="eRb-Nm-Isb"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <state key="normal" title="完成">
@@ -38,16 +38,38 @@
                                 <action selector="doneBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="DK8-7c-75X"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIz-U9-hxc">
+                            <rect key="frame" x="0.0" y="6" width="60" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="ydc-vh-Z1I"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="71d-zG-ETy"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="centerY" secondItem="MTa-HA-txc" secondAttribute="centerY" id="7cQ-uo-KNb"/>
                         <constraint firstAttribute="bottom" secondItem="gn4-X8-1eE" secondAttribute="bottom" id="BKq-kv-gH2"/>
+                        <constraint firstItem="JIz-U9-hxc" firstAttribute="leading" secondItem="MsX-78-AN1" secondAttribute="leading" id="GVa-rU-hPx"/>
                         <constraint firstItem="gn4-X8-1eE" firstAttribute="leading" secondItem="MsX-78-AN1" secondAttribute="leading" id="NKf-bl-94c"/>
+                        <constraint firstItem="gn4-X8-1eE" firstAttribute="leading" secondItem="JIz-U9-hxc" secondAttribute="trailing" id="Ze3-Is-Yg6"/>
                         <constraint firstItem="gn4-X8-1eE" firstAttribute="top" secondItem="MsX-78-AN1" secondAttribute="top" id="akF-8p-E2e"/>
+                        <constraint firstAttribute="centerY" secondItem="JIz-U9-hxc" secondAttribute="centerY" id="kbB-aT-ZfU"/>
                         <constraint firstItem="MTa-HA-txc" firstAttribute="leading" secondItem="gn4-X8-1eE" secondAttribute="trailing" id="lvU-zM-nBi"/>
-                        <constraint firstAttribute="trailing" secondItem="MTa-HA-txc" secondAttribute="trailing" constant="10" id="nqS-7F-XVn"/>
+                        <constraint firstAttribute="trailing" secondItem="MTa-HA-txc" secondAttribute="trailing" id="nqS-7F-XVn"/>
                     </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="NKf-bl-94c"/>
+                        </mask>
+                    </variation>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -63,10 +85,11 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="cancelBtnWC" destination="ydc-vh-Z1I" id="6Av-P7-SAb"/>
                 <outlet property="doneBtn" destination="MTa-HA-txc" id="Ivv-Bu-ftL"/>
                 <outlet property="msgLabel" destination="gn4-X8-1eE" id="ngr-7w-xvL"/>
             </connections>
-            <point key="canvasLocation" x="455" y="276.5"/>
+            <point key="canvasLocation" x="455" y="276"/>
         </view>
     </objects>
 </document>

@@ -13,8 +13,12 @@ class AccessoryView: UIView {
     @IBOutlet weak var msgLabel: UILabel!
     
     @IBOutlet weak var doneBtn: UIButton!
+    
+    var hideCancelBtn: Bool = false {didSet{hideCancelBtnAction()}}
 
-    var doneBtnActionClosure: (Void->Void)!
+    var doneBtnActionClosure,cancelBtnActionClosure: (Void->Void)!
+    
+    @IBOutlet weak var cancelBtnWC: NSLayoutConstraint!
     
 }
 
@@ -22,6 +26,13 @@ class AccessoryView: UIView {
 extension AccessoryView{
     
     @IBAction func doneBtnAction(sender: UIButton) {doneBtnActionClosure?()}
+    @IBAction func cancelBtnAction(sender: UIButton) {cancelBtnActionClosure?()}
     
     static func instance()->AccessoryView{return NSBundle.mainBundle().loadNibNamed("AccessoryView", owner: nil, options: nil).first as! AccessoryView}
+    
+    
+    func hideCancelBtnAction(){
+        if !hideCancelBtn {return}
+        cancelBtnWC.constant=0
+    }
 }

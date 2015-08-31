@@ -10,7 +10,7 @@ import UIKit
 
 class OneStringVC: UIViewController {
 
-    @IBOutlet weak var tf: PickerTextField!
+    @IBOutlet weak var tf: OneColTF!
     
     
     

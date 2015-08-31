@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		899471711B946DE000DC0E5E /* MulSelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994716F1B946DE000DC0E5E /* MulSelVC.swift */; };
+		899471721B946DE000DC0E5E /* MulSelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899471701B946DE000DC0E5E /* MulSelVC.xib */; };
+		899471741B946F7900DC0E5E /* MulSelTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899471731B946F7900DC0E5E /* MulSelTF.swift */; };
+		8994717E1B9474B200DC0E5E /* InputViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994717D1B9474B200DC0E5E /* InputViewTextField.swift */; };
+		899471871B947F6500DC0E5E /* MulSelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899471821B947F6500DC0E5E /* MulSelView.swift */; };
+		899471881B947F6500DC0E5E /* MulSelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899471831B947F6500DC0E5E /* MulSelView.xib */; };
+		899471891B947F6500DC0E5E /* MulSelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899471841B947F6500DC0E5E /* MulSelViewCell.swift */; };
+		8994718A1B947F6500DC0E5E /* MulSelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899471851B947F6500DC0E5E /* MulSelViewCell.xib */; };
+		8994718D1B94801800DC0E5E /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8994718C1B94801800DC0E5E /* resource.bundle */; };
 		89C5C02B1B8B6953006F5A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C02A1B8B6953006F5A3F /* AppDelegate.swift */; };
 		89C5C0301B8B6953006F5A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C02E1B8B6953006F5A3F /* Main.storyboard */; };
 		89C5C0321B8B6953006F5A3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C0311B8B6953006F5A3F /* Images.xcassets */; };
@@ -14,7 +23,7 @@
 		89C5C0411B8B6953006F5A3F /* TextField_PickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */; };
 		89C5C0501B8B6964006F5A3F /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */; };
 		89C5C0511B8B6964006F5A3F /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */; };
-		89C5C0521B8B6964006F5A3F /* OneCol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04F1B8B6964006F5A3F /* OneCol.swift */; };
+		89C5C0521B8B6964006F5A3F /* OneColTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04F1B8B6964006F5A3F /* OneColTF.swift */; };
 		89C5C0541B8B69B5006F5A3F /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0531B8B69B5006F5A3F /* ListTVC.swift */; };
 		89C5C0571B8B6B39006F5A3F /* OneStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */; };
 		89C5C0581B8B6B39006F5A3F /* OneStringVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */; };
@@ -35,18 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		89C5C0251B8B6953006F5A3F /* TextField+PickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextField+PickerView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8994716F1B946DE000DC0E5E /* MulSelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelVC.swift; sourceTree = "<group>"; };
+		899471701B946DE000DC0E5E /* MulSelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelVC.xib; sourceTree = "<group>"; };
+		899471731B946F7900DC0E5E /* MulSelTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelTF.swift; sourceTree = "<group>"; };
+		8994717D1B9474B200DC0E5E /* InputViewTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewTextField.swift; sourceTree = "<group>"; };
+		899471821B947F6500DC0E5E /* MulSelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelView.swift; sourceTree = "<group>"; };
+		899471831B947F6500DC0E5E /* MulSelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelView.xib; sourceTree = "<group>"; };
+		899471841B947F6500DC0E5E /* MulSelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelViewCell.swift; sourceTree = "<group>"; };
+		899471851B947F6500DC0E5E /* MulSelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelViewCell.xib; sourceTree = "<group>"; };
+		8994718C1B94801800DC0E5E /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		89C5C0251B8B6953006F5A3F /* TextField+InputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextField+InputView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C5C0291B8B6953006F5A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89C5C02A1B8B6953006F5A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C5C02F1B8B6953006F5A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89C5C0311B8B6953006F5A3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89C5C0341B8B6953006F5A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		89C5C03A1B8B6953006F5A3F /* TextField+PickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField+PickerViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C5C03A1B8B6953006F5A3F /* TextField+InputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField+InputViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C5C03F1B8B6953006F5A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_PickerViewTests.swift; sourceTree = "<group>"; };
 		89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
 		89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
-		89C5C04F1B8B6964006F5A3F /* OneCol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneCol.swift; sourceTree = "<group>"; };
+		89C5C04F1B8B6964006F5A3F /* OneColTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneColTF.swift; sourceTree = "<group>"; };
 		89C5C0531B8B69B5006F5A3F /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
 		89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneStringVC.swift; sourceTree = "<group>"; };
 		89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneStringVC.xib; sourceTree = "<group>"; };
@@ -74,6 +92,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		899471691B946B3800DC0E5E /* MulSel */ = {
+			isa = PBXGroup;
+			children = (
+				899471731B946F7900DC0E5E /* MulSelTF.swift */,
+				899471811B947F6500DC0E5E /* MulSelView */,
+			);
+			path = MulSel;
+			sourceTree = "<group>";
+		};
+		899471811B947F6500DC0E5E /* MulSelView */ = {
+			isa = PBXGroup;
+			children = (
+				899471821B947F6500DC0E5E /* MulSelView.swift */,
+				899471831B947F6500DC0E5E /* MulSelView.xib */,
+				899471841B947F6500DC0E5E /* MulSelViewCell.swift */,
+				899471851B947F6500DC0E5E /* MulSelViewCell.xib */,
+				8994718C1B94801800DC0E5E /* resource.bundle */,
+			);
+			path = MulSelView;
+			sourceTree = "<group>";
+		};
 		89C5C01C1B8B6953006F5A3F = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +125,8 @@
 		89C5C0261B8B6953006F5A3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89C5C0251B8B6953006F5A3F /* TextField+PickerView.app */,
-				89C5C03A1B8B6953006F5A3F /* TextField+PickerViewTests.xctest */,
+				89C5C0251B8B6953006F5A3F /* TextField+InputView.app */,
+				89C5C03A1B8B6953006F5A3F /* TextField+InputViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +141,8 @@
 				89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */,
 				89CE801F1B8C8421008BE863 /* OneModelVC.swift */,
 				89CE80201B8C8421008BE863 /* OneModelVC.xib */,
+				8994716F1B946DE000DC0E5E /* MulSelVC.swift */,
+				899471701B946DE000DC0E5E /* MulSelVC.xib */,
 				89C5C02E1B8B6953006F5A3F /* Main.storyboard */,
 				89C5C0311B8B6953006F5A3F /* Images.xcassets */,
 				89C5C0331B8B6953006F5A3F /* LaunchScreen.xib */,
@@ -141,6 +182,7 @@
 			children = (
 				89C5C04B1B8B6964006F5A3F /* Common */,
 				89C5C04E1B8B6964006F5A3F /* OneCol */,
+				899471691B946B3800DC0E5E /* MulSel */,
 			);
 			path = "TextField+PickerView";
 			sourceTree = "<group>";
@@ -151,6 +193,7 @@
 				89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */,
 				89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */,
 				89C5C0591B8B7672006F5A3F /* TextField+PickerView+Common.swift */,
+				8994717D1B9474B200DC0E5E /* InputViewTextField.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -158,7 +201,7 @@
 		89C5C04E1B8B6964006F5A3F /* OneCol */ = {
 			isa = PBXGroup;
 			children = (
-				89C5C04F1B8B6964006F5A3F /* OneCol.swift */,
+				89C5C04F1B8B6964006F5A3F /* OneColTF.swift */,
 			);
 			path = OneCol;
 			sourceTree = "<group>";
@@ -166,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89C5C0241B8B6953006F5A3F /* TextField+PickerView */ = {
+		89C5C0241B8B6953006F5A3F /* TextField+InputView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89C5C0441B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+PickerView" */;
+			buildConfigurationList = 89C5C0441B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+InputView" */;
 			buildPhases = (
 				89C5C0211B8B6953006F5A3F /* Sources */,
 				89C5C0221B8B6953006F5A3F /* Frameworks */,
@@ -178,14 +221,14 @@
 			);
 			dependencies = (
 			);
-			name = "TextField+PickerView";
+			name = "TextField+InputView";
 			productName = "TextField+PickerView";
-			productReference = 89C5C0251B8B6953006F5A3F /* TextField+PickerView.app */;
+			productReference = 89C5C0251B8B6953006F5A3F /* TextField+InputView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89C5C0391B8B6953006F5A3F /* TextField+PickerViewTests */ = {
+		89C5C0391B8B6953006F5A3F /* TextField+InputViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89C5C0471B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+PickerViewTests" */;
+			buildConfigurationList = 89C5C0471B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+InputViewTests" */;
 			buildPhases = (
 				89C5C0361B8B6953006F5A3F /* Sources */,
 				89C5C0371B8B6953006F5A3F /* Frameworks */,
@@ -196,9 +239,9 @@
 			dependencies = (
 				89C5C03C1B8B6953006F5A3F /* PBXTargetDependency */,
 			);
-			name = "TextField+PickerViewTests";
+			name = "TextField+InputViewTests";
 			productName = "TextField+PickerViewTests";
-			productReference = 89C5C03A1B8B6953006F5A3F /* TextField+PickerViewTests.xctest */;
+			productReference = 89C5C03A1B8B6953006F5A3F /* TextField+InputViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89C5C0201B8B6953006F5A3F /* Build configuration list for PBXProject "TextField+PickerView" */;
+			buildConfigurationList = 89C5C0201B8B6953006F5A3F /* Build configuration list for PBXProject "TextField+InputView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +275,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89C5C0241B8B6953006F5A3F /* TextField+PickerView */,
-				89C5C0391B8B6953006F5A3F /* TextField+PickerViewTests */,
+				89C5C0241B8B6953006F5A3F /* TextField+InputView */,
+				89C5C0391B8B6953006F5A3F /* TextField+InputViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,12 +286,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899471721B946DE000DC0E5E /* MulSelVC.xib in Resources */,
 				89C5C0301B8B6953006F5A3F /* Main.storyboard in Resources */,
 				89C5C0581B8B6B39006F5A3F /* OneStringVC.xib in Resources */,
 				89C5C0511B8B6964006F5A3F /* AccessoryView.xib in Resources */,
+				8994718D1B94801800DC0E5E /* resource.bundle in Resources */,
+				8994718A1B947F6500DC0E5E /* MulSelViewCell.xib in Resources */,
 				89C5C0351B8B6953006F5A3F /* LaunchScreen.xib in Resources */,
 				89CE80241B8C8A67008BE863 /* logo.jpg in Resources */,
 				89C5C0321B8B6953006F5A3F /* Images.xcassets in Resources */,
+				899471881B947F6500DC0E5E /* MulSelView.xib in Resources */,
 				89CE80221B8C8421008BE863 /* OneModelVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,8 +316,13 @@
 			files = (
 				89C5C0501B8B6964006F5A3F /* AccessoryView.swift in Sources */,
 				89C5C0541B8B69B5006F5A3F /* ListTVC.swift in Sources */,
+				8994717E1B9474B200DC0E5E /* InputViewTextField.swift in Sources */,
+				899471871B947F6500DC0E5E /* MulSelView.swift in Sources */,
+				899471891B947F6500DC0E5E /* MulSelViewCell.swift in Sources */,
 				89CE80211B8C8421008BE863 /* OneModelVC.swift in Sources */,
-				89C5C0521B8B6964006F5A3F /* OneCol.swift in Sources */,
+				899471741B946F7900DC0E5E /* MulSelTF.swift in Sources */,
+				89C5C0521B8B6964006F5A3F /* OneColTF.swift in Sources */,
+				899471711B946DE000DC0E5E /* MulSelVC.swift in Sources */,
 				89C5C02B1B8B6953006F5A3F /* AppDelegate.swift in Sources */,
 				89C5C0571B8B6B39006F5A3F /* OneStringVC.swift in Sources */,
 				89C5C05A1B8B7672006F5A3F /* TextField+PickerView+Common.swift in Sources */,
@@ -290,7 +342,7 @@
 /* Begin PBXTargetDependency section */
 		89C5C03C1B8B6953006F5A3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89C5C0241B8B6953006F5A3F /* TextField+PickerView */;
+			target = 89C5C0241B8B6953006F5A3F /* TextField+InputView */;
 			targetProxy = 89C5C03B1B8B6953006F5A3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,10 +453,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "TextField+PickerView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TextField+InputView";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +467,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "TextField+PickerView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TextField+InputView";
 			};
 			name = Release;
 		};
@@ -434,7 +489,7 @@
 				);
 				INFOPLIST_FILE = "TextField+PickerViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TextField+InputViewTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField+PickerView.app/TextField+PickerView";
 			};
 			name = Debug;
@@ -449,7 +504,7 @@
 				);
 				INFOPLIST_FILE = "TextField+PickerViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TextField+InputViewTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField+PickerView.app/TextField+PickerView";
 			};
 			name = Release;
@@ -457,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89C5C0201B8B6953006F5A3F /* Build configuration list for PBXProject "TextField+PickerView" */ = {
+		89C5C0201B8B6953006F5A3F /* Build configuration list for PBXProject "TextField+InputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89C5C0421B8B6953006F5A3F /* Debug */,
@@ -466,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89C5C0441B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+PickerView" */ = {
+		89C5C0441B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+InputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89C5C0451B8B6953006F5A3F /* Debug */,
@@ -475,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89C5C0471B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+PickerViewTests" */ = {
+		89C5C0471B8B6953006F5A3F /* Build configuration list for PBXNativeTarget "TextField+InputViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89C5C0481B8B6953006F5A3F /* Debug */,

@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C5C0241B8B6953006F5A3F"
-            BuildableName = "TextField+PickerView.app"
-            BlueprintName = "TextField+PickerView"
-            ReferencedContainer = "container:TextField+PickerView.xcodeproj">
+            BuildableName = "TextField+InputView.app"
+            BlueprintName = "TextField+InputView"
+            ReferencedContainer = "container:TextField+InputView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C5C0241B8B6953006F5A3F"
-            BuildableName = "TextField+PickerView.app"
-            BlueprintName = "TextField+PickerView"
-            ReferencedContainer = "container:TextField+PickerView.xcodeproj">
+            BuildableName = "TextField+InputView.app"
+            BlueprintName = "TextField+InputView"
+            ReferencedContainer = "container:TextField+InputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

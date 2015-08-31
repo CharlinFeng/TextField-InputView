@@ -5,9 +5,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneStringVC" customModule="TextField_PickerView" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MulSelVC" customModule="TextField_PickerView" customModuleProvider="target">
             <connections>
-                <outlet property="tf" destination="HQ7-N3-w5S" id="WQc-hS-por"/>
+                <outlet property="tf" destination="rhd-Au-pV7" id="d6a-dj-ohC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,10 +16,10 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HQ7-N3-w5S" customClass="OneColTF" customModule="TextField_PickerView" customModuleProvider="target">
-                    <rect key="frame" x="20" y="100" width="560" height="44"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rhd-Au-pV7" customClass="MulSelTF" customModule="TextField_PickerView" customModuleProvider="target">
+                    <rect key="frame" x="40" y="100" width="520" height="44"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="44" id="kRM-Ij-tWJ"/>
+                        <constraint firstAttribute="height" constant="44" id="THL-bq-nJI"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
@@ -27,11 +27,10 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="HQ7-N3-w5S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="XgR-ZW-l8o"/>
-                <constraint firstAttribute="trailing" secondItem="HQ7-N3-w5S" secondAttribute="trailing" constant="20" id="ezU-mb-lMg"/>
-                <constraint firstItem="HQ7-N3-w5S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="p3a-O6-1Wv"/>
+                <constraint firstItem="rhd-Au-pV7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="nzi-v9-pW3"/>
+                <constraint firstItem="rhd-Au-pV7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="pyY-AY-Drf"/>
+                <constraint firstAttribute="trailing" secondItem="rhd-Au-pV7" secondAttribute="trailing" constant="40" id="vOr-47-Yx7"/>
             </constraints>
-            <point key="canvasLocation" x="187" y="306"/>
         </view>
     </objects>
 </document>

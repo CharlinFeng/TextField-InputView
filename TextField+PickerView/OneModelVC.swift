@@ -22,7 +22,7 @@ class CityModel: PickerDataModelProtocol {
 
 class OneModelVC: UIViewController {
 
-    @IBOutlet weak var tf: PickerTextField!
+    @IBOutlet weak var tf: OneColTF!
     
     override func viewDidLoad() {
         

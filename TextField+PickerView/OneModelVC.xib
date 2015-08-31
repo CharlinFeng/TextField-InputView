@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneModelVC" customModule="TextField_PickerView" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneColTF" customModule="TextField_PickerView" customModuleProvider="target">
             <connections>
                 <outlet property="tf" destination="HQ7-N3-w5S" id="WQc-hS-por"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="p8S-YA-jBM"/>
@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HQ7-N3-w5S" customClass="PickerTextField" customModule="TextField_PickerView" customModuleProvider="target">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HQ7-N3-w5S" customClass="OneColTF" customModule="TextField_PickerView" customModuleProvider="target">
                     <rect key="frame" x="20" y="100" width="560" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="kRM-Ij-tWJ"/>
