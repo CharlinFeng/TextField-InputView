@@ -1,6 +1,6 @@
 //
-//  TextField+PickerView+Common.swift
-//  TextField+PickerView
+//  TextField+InputView+Common.swift
+//  TextField+InputView
 //
 //  Created by 成林 on 15/8/24.
 //  Copyright (c) 2015年 冯成林. All rights reserved.

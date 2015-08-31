@@ -1,6 +1,6 @@
 //
-//  TextField_PickerViewTests.swift
-//  TextField+PickerViewTests
+//  TextField_InputViewTests.swift
+//  TextField+InputViewTests
 //
 //  Created by 成林 on 15/8/24.
 //  Copyright (c) 2015年 冯成林. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class TextField_PickerViewTests: XCTestCase {
+class TextField_InputViewTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

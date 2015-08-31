@@ -1,6 +1,6 @@
 //
 //  One+Original.swift
-//  TextField+PickerView
+//  TextField+InputView
 //
 //  Created by 成林 on 15/8/24.
 //  Copyright (c) 2015年 冯成林. All rights reserved.
@@ -36,10 +36,6 @@ class OneModelVC: UIViewController {
         tf.addOneColPickerViewWithModels([city1,city2,city3])
         
     }
-    
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        
-        println("选择值：\(tf.selectedPickerViewValue),\((tf.selectedPickerViewValue as! PickerDataModelProtocol).title)")
-    }
+
  
 }

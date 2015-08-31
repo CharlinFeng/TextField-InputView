@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		899471711B946DE000DC0E5E /* MulSelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994716F1B946DE000DC0E5E /* MulSelVC.swift */; };
-		899471721B946DE000DC0E5E /* MulSelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899471701B946DE000DC0E5E /* MulSelVC.xib */; };
-		899471741B946F7900DC0E5E /* MulSelTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899471731B946F7900DC0E5E /* MulSelTF.swift */; };
-		8994717E1B9474B200DC0E5E /* InputViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8994717D1B9474B200DC0E5E /* InputViewTextField.swift */; };
-		899471871B947F6500DC0E5E /* MulSelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899471821B947F6500DC0E5E /* MulSelView.swift */; };
-		899471881B947F6500DC0E5E /* MulSelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899471831B947F6500DC0E5E /* MulSelView.xib */; };
-		899471891B947F6500DC0E5E /* MulSelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899471841B947F6500DC0E5E /* MulSelViewCell.swift */; };
-		8994718A1B947F6500DC0E5E /* MulSelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899471851B947F6500DC0E5E /* MulSelViewCell.xib */; };
-		8994718D1B94801800DC0E5E /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8994718C1B94801800DC0E5E /* resource.bundle */; };
-		89C5C02B1B8B6953006F5A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C02A1B8B6953006F5A3F /* AppDelegate.swift */; };
-		89C5C0301B8B6953006F5A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C02E1B8B6953006F5A3F /* Main.storyboard */; };
-		89C5C0321B8B6953006F5A3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C0311B8B6953006F5A3F /* Images.xcassets */; };
-		89C5C0351B8B6953006F5A3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C0331B8B6953006F5A3F /* LaunchScreen.xib */; };
-		89C5C0411B8B6953006F5A3F /* TextField_PickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */; };
-		89C5C0501B8B6964006F5A3F /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */; };
-		89C5C0511B8B6964006F5A3F /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */; };
-		89C5C0521B8B6964006F5A3F /* OneColTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C04F1B8B6964006F5A3F /* OneColTF.swift */; };
-		89C5C0541B8B69B5006F5A3F /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0531B8B69B5006F5A3F /* ListTVC.swift */; };
-		89C5C0571B8B6B39006F5A3F /* OneStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */; };
-		89C5C0581B8B6B39006F5A3F /* OneStringVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */; };
-		89C5C05A1B8B7672006F5A3F /* TextField+PickerView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C0591B8B7672006F5A3F /* TextField+PickerView+Common.swift */; };
-		89CE80211B8C8421008BE863 /* OneModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CE801F1B8C8421008BE863 /* OneModelVC.swift */; };
-		89CE80221B8C8421008BE863 /* OneModelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89CE80201B8C8421008BE863 /* OneModelVC.xib */; };
-		89CE80241B8C8A67008BE863 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89CE80231B8C8A67008BE863 /* logo.jpg */; };
+		893ACC301B94A32500BB9B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */; };
+		893ACC311B94A32500BB9B44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC0F1B94A32500BB9B44 /* LaunchScreen.xib */; };
+		893ACC321B94A32500BB9B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC111B94A32500BB9B44 /* Main.storyboard */; };
+		893ACC331B94A32500BB9B44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC131B94A32500BB9B44 /* Images.xcassets */; };
+		893ACC341B94A32500BB9B44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC141B94A32500BB9B44 /* Info.plist */; };
+		893ACC351B94A32500BB9B44 /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC151B94A32500BB9B44 /* ListTVC.swift */; };
+		893ACC361B94A32500BB9B44 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC161B94A32500BB9B44 /* logo.jpg */; };
+		893ACC371B94A32500BB9B44 /* MulSelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC171B94A32500BB9B44 /* MulSelVC.swift */; };
+		893ACC381B94A32500BB9B44 /* MulSelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC181B94A32500BB9B44 /* MulSelVC.xib */; };
+		893ACC391B94A32500BB9B44 /* OneModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC191B94A32500BB9B44 /* OneModelVC.swift */; };
+		893ACC3A1B94A32500BB9B44 /* OneModelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC1A1B94A32500BB9B44 /* OneModelVC.xib */; };
+		893ACC3B1B94A32500BB9B44 /* OneStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC1B1B94A32500BB9B44 /* OneStringVC.swift */; };
+		893ACC3C1B94A32500BB9B44 /* OneStringVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC1C1B94A32500BB9B44 /* OneStringVC.xib */; };
+		893ACC3D1B94A32500BB9B44 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC1F1B94A32500BB9B44 /* AccessoryView.swift */; };
+		893ACC3E1B94A32500BB9B44 /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC201B94A32500BB9B44 /* AccessoryView.xib */; };
+		893ACC3F1B94A32500BB9B44 /* InputViewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC211B94A32500BB9B44 /* InputViewTextField.swift */; };
+		893ACC401B94A32500BB9B44 /* TextField+PickerView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC221B94A32500BB9B44 /* TextField+PickerView+Common.swift */; };
+		893ACC411B94A32500BB9B44 /* MulSelTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC241B94A32500BB9B44 /* MulSelTF.swift */; };
+		893ACC421B94A32500BB9B44 /* MulSelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC261B94A32500BB9B44 /* MulSelView.swift */; };
+		893ACC431B94A32500BB9B44 /* MulSelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC271B94A32500BB9B44 /* MulSelView.xib */; };
+		893ACC441B94A32500BB9B44 /* MulSelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC281B94A32500BB9B44 /* MulSelViewCell.swift */; };
+		893ACC451B94A32500BB9B44 /* MulSelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC291B94A32500BB9B44 /* MulSelViewCell.xib */; };
+		893ACC461B94A32500BB9B44 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC2A1B94A32500BB9B44 /* resource.bundle */; };
+		893ACC471B94A32500BB9B44 /* OneColTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC2C1B94A32500BB9B44 /* OneColTF.swift */; };
+		893ACC481B94A32500BB9B44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893ACC2E1B94A32500BB9B44 /* Info.plist */; };
+		893ACC4B1B94A36400BB9B44 /* TextField_InputViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893ACC4A1B94A36400BB9B44 /* TextField_InputViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,34 +46,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8994716F1B946DE000DC0E5E /* MulSelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelVC.swift; sourceTree = "<group>"; };
-		899471701B946DE000DC0E5E /* MulSelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelVC.xib; sourceTree = "<group>"; };
-		899471731B946F7900DC0E5E /* MulSelTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelTF.swift; sourceTree = "<group>"; };
-		8994717D1B9474B200DC0E5E /* InputViewTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewTextField.swift; sourceTree = "<group>"; };
-		899471821B947F6500DC0E5E /* MulSelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelView.swift; sourceTree = "<group>"; };
-		899471831B947F6500DC0E5E /* MulSelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelView.xib; sourceTree = "<group>"; };
-		899471841B947F6500DC0E5E /* MulSelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelViewCell.swift; sourceTree = "<group>"; };
-		899471851B947F6500DC0E5E /* MulSelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelViewCell.xib; sourceTree = "<group>"; };
-		8994718C1B94801800DC0E5E /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893ACC101B94A32500BB9B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		893ACC121B94A32500BB9B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893ACC131B94A32500BB9B44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		893ACC141B94A32500BB9B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893ACC151B94A32500BB9B44 /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
+		893ACC161B94A32500BB9B44 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		893ACC171B94A32500BB9B44 /* MulSelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelVC.swift; sourceTree = "<group>"; };
+		893ACC181B94A32500BB9B44 /* MulSelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelVC.xib; sourceTree = "<group>"; };
+		893ACC191B94A32500BB9B44 /* OneModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneModelVC.swift; sourceTree = "<group>"; };
+		893ACC1A1B94A32500BB9B44 /* OneModelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneModelVC.xib; sourceTree = "<group>"; };
+		893ACC1B1B94A32500BB9B44 /* OneStringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneStringVC.swift; sourceTree = "<group>"; };
+		893ACC1C1B94A32500BB9B44 /* OneStringVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneStringVC.xib; sourceTree = "<group>"; };
+		893ACC1F1B94A32500BB9B44 /* AccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		893ACC201B94A32500BB9B44 /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
+		893ACC211B94A32500BB9B44 /* InputViewTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewTextField.swift; sourceTree = "<group>"; };
+		893ACC221B94A32500BB9B44 /* TextField+PickerView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+PickerView+Common.swift"; sourceTree = "<group>"; };
+		893ACC241B94A32500BB9B44 /* MulSelTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelTF.swift; sourceTree = "<group>"; };
+		893ACC261B94A32500BB9B44 /* MulSelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelView.swift; sourceTree = "<group>"; };
+		893ACC271B94A32500BB9B44 /* MulSelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelView.xib; sourceTree = "<group>"; };
+		893ACC281B94A32500BB9B44 /* MulSelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelViewCell.swift; sourceTree = "<group>"; };
+		893ACC291B94A32500BB9B44 /* MulSelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelViewCell.xib; sourceTree = "<group>"; };
+		893ACC2A1B94A32500BB9B44 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		893ACC2C1B94A32500BB9B44 /* OneColTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneColTF.swift; sourceTree = "<group>"; };
+		893ACC2E1B94A32500BB9B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893ACC4A1B94A36400BB9B44 /* TextField_InputViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField_InputViewTests.swift; sourceTree = "<group>"; };
 		89C5C0251B8B6953006F5A3F /* TextField+InputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextField+InputView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C5C0291B8B6953006F5A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89C5C02A1B8B6953006F5A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89C5C02F1B8B6953006F5A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89C5C0311B8B6953006F5A3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		89C5C0341B8B6953006F5A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		89C5C03A1B8B6953006F5A3F /* TextField+InputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField+InputViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C5C03F1B8B6953006F5A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_PickerViewTests.swift; sourceTree = "<group>"; };
-		89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
-		89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
-		89C5C04F1B8B6964006F5A3F /* OneColTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneColTF.swift; sourceTree = "<group>"; };
-		89C5C0531B8B69B5006F5A3F /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
-		89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneStringVC.swift; sourceTree = "<group>"; };
-		89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneStringVC.xib; sourceTree = "<group>"; };
-		89C5C0591B8B7672006F5A3F /* TextField+PickerView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+PickerView+Common.swift"; sourceTree = "<group>"; };
-		89CE801F1B8C8421008BE863 /* OneModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneModelVC.swift; sourceTree = "<group>"; };
-		89CE80201B8C8421008BE863 /* OneModelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneModelVC.xib; sourceTree = "<group>"; };
-		89CE80231B8C8A67008BE863 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,32 +94,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		899471691B946B3800DC0E5E /* MulSel */ = {
+		893ACC0D1B94A32500BB9B44 /* TextField+InputView */ = {
 			isa = PBXGroup;
 			children = (
-				899471731B946F7900DC0E5E /* MulSelTF.swift */,
-				899471811B947F6500DC0E5E /* MulSelView */,
+				893ACC1D1B94A32500BB9B44 /* TextField+InputView */,
+				893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */,
+				893ACC0F1B94A32500BB9B44 /* LaunchScreen.xib */,
+				893ACC111B94A32500BB9B44 /* Main.storyboard */,
+				893ACC131B94A32500BB9B44 /* Images.xcassets */,
+				893ACC141B94A32500BB9B44 /* Info.plist */,
+				893ACC151B94A32500BB9B44 /* ListTVC.swift */,
+				893ACC161B94A32500BB9B44 /* logo.jpg */,
+				893ACC171B94A32500BB9B44 /* MulSelVC.swift */,
+				893ACC181B94A32500BB9B44 /* MulSelVC.xib */,
+				893ACC191B94A32500BB9B44 /* OneModelVC.swift */,
+				893ACC1A1B94A32500BB9B44 /* OneModelVC.xib */,
+				893ACC1B1B94A32500BB9B44 /* OneStringVC.swift */,
+				893ACC1C1B94A32500BB9B44 /* OneStringVC.xib */,
+			);
+			path = "TextField+InputView";
+			sourceTree = "<group>";
+		};
+		893ACC1D1B94A32500BB9B44 /* TextField+InputView */ = {
+			isa = PBXGroup;
+			children = (
+				893ACC1E1B94A32500BB9B44 /* Common */,
+				893ACC231B94A32500BB9B44 /* MulSel */,
+				893ACC2B1B94A32500BB9B44 /* OneCol */,
+			);
+			path = "TextField+InputView";
+			sourceTree = "<group>";
+		};
+		893ACC1E1B94A32500BB9B44 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				893ACC1F1B94A32500BB9B44 /* AccessoryView.swift */,
+				893ACC201B94A32500BB9B44 /* AccessoryView.xib */,
+				893ACC211B94A32500BB9B44 /* InputViewTextField.swift */,
+				893ACC221B94A32500BB9B44 /* TextField+PickerView+Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		893ACC231B94A32500BB9B44 /* MulSel */ = {
+			isa = PBXGroup;
+			children = (
+				893ACC241B94A32500BB9B44 /* MulSelTF.swift */,
+				893ACC251B94A32500BB9B44 /* MulSelView */,
 			);
 			path = MulSel;
 			sourceTree = "<group>";
 		};
-		899471811B947F6500DC0E5E /* MulSelView */ = {
+		893ACC251B94A32500BB9B44 /* MulSelView */ = {
 			isa = PBXGroup;
 			children = (
-				899471821B947F6500DC0E5E /* MulSelView.swift */,
-				899471831B947F6500DC0E5E /* MulSelView.xib */,
-				899471841B947F6500DC0E5E /* MulSelViewCell.swift */,
-				899471851B947F6500DC0E5E /* MulSelViewCell.xib */,
-				8994718C1B94801800DC0E5E /* resource.bundle */,
+				893ACC261B94A32500BB9B44 /* MulSelView.swift */,
+				893ACC271B94A32500BB9B44 /* MulSelView.xib */,
+				893ACC281B94A32500BB9B44 /* MulSelViewCell.swift */,
+				893ACC291B94A32500BB9B44 /* MulSelViewCell.xib */,
+				893ACC2A1B94A32500BB9B44 /* resource.bundle */,
 			);
 			path = MulSelView;
+			sourceTree = "<group>";
+		};
+		893ACC2B1B94A32500BB9B44 /* OneCol */ = {
+			isa = PBXGroup;
+			children = (
+				893ACC2C1B94A32500BB9B44 /* OneColTF.swift */,
+			);
+			path = OneCol;
+			sourceTree = "<group>";
+		};
+		893ACC2D1B94A32500BB9B44 /* TextField+InputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				893ACC2E1B94A32500BB9B44 /* Info.plist */,
+				893ACC4A1B94A36400BB9B44 /* TextField_InputViewTests.swift */,
+			);
+			path = "TextField+InputViewTests";
 			sourceTree = "<group>";
 		};
 		89C5C01C1B8B6953006F5A3F = {
 			isa = PBXGroup;
 			children = (
-				89C5C0271B8B6953006F5A3F /* TextField+PickerView */,
-				89C5C03D1B8B6953006F5A3F /* TextField+PickerViewTests */,
+				893ACC0D1B94A32500BB9B44 /* TextField+InputView */,
+				893ACC2D1B94A32500BB9B44 /* TextField+InputViewTests */,
 				89C5C0261B8B6953006F5A3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,81 +190,6 @@
 				89C5C03A1B8B6953006F5A3F /* TextField+InputViewTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		89C5C0271B8B6953006F5A3F /* TextField+PickerView */ = {
-			isa = PBXGroup;
-			children = (
-				89C5C04A1B8B6964006F5A3F /* TextField+PickerView */,
-				89C5C02A1B8B6953006F5A3F /* AppDelegate.swift */,
-				89C5C0531B8B69B5006F5A3F /* ListTVC.swift */,
-				89C5C0551B8B6B39006F5A3F /* OneStringVC.swift */,
-				89C5C0561B8B6B39006F5A3F /* OneStringVC.xib */,
-				89CE801F1B8C8421008BE863 /* OneModelVC.swift */,
-				89CE80201B8C8421008BE863 /* OneModelVC.xib */,
-				8994716F1B946DE000DC0E5E /* MulSelVC.swift */,
-				899471701B946DE000DC0E5E /* MulSelVC.xib */,
-				89C5C02E1B8B6953006F5A3F /* Main.storyboard */,
-				89C5C0311B8B6953006F5A3F /* Images.xcassets */,
-				89C5C0331B8B6953006F5A3F /* LaunchScreen.xib */,
-				89C5C0281B8B6953006F5A3F /* Supporting Files */,
-			);
-			path = "TextField+PickerView";
-			sourceTree = "<group>";
-		};
-		89C5C0281B8B6953006F5A3F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				89CE80231B8C8A67008BE863 /* logo.jpg */,
-				89C5C0291B8B6953006F5A3F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		89C5C03D1B8B6953006F5A3F /* TextField+PickerViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				89C5C0401B8B6953006F5A3F /* TextField_PickerViewTests.swift */,
-				89C5C03E1B8B6953006F5A3F /* Supporting Files */,
-			);
-			path = "TextField+PickerViewTests";
-			sourceTree = "<group>";
-		};
-		89C5C03E1B8B6953006F5A3F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				89C5C03F1B8B6953006F5A3F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		89C5C04A1B8B6964006F5A3F /* TextField+PickerView */ = {
-			isa = PBXGroup;
-			children = (
-				89C5C04B1B8B6964006F5A3F /* Common */,
-				89C5C04E1B8B6964006F5A3F /* OneCol */,
-				899471691B946B3800DC0E5E /* MulSel */,
-			);
-			path = "TextField+PickerView";
-			sourceTree = "<group>";
-		};
-		89C5C04B1B8B6964006F5A3F /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				89C5C04C1B8B6964006F5A3F /* AccessoryView.swift */,
-				89C5C04D1B8B6964006F5A3F /* AccessoryView.xib */,
-				89C5C0591B8B7672006F5A3F /* TextField+PickerView+Common.swift */,
-				8994717D1B9474B200DC0E5E /* InputViewTextField.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		89C5C04E1B8B6964006F5A3F /* OneCol */ = {
-			isa = PBXGroup;
-			children = (
-				89C5C04F1B8B6964006F5A3F /* OneColTF.swift */,
-			);
-			path = OneCol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,17 +272,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899471721B946DE000DC0E5E /* MulSelVC.xib in Resources */,
-				89C5C0301B8B6953006F5A3F /* Main.storyboard in Resources */,
-				89C5C0581B8B6B39006F5A3F /* OneStringVC.xib in Resources */,
-				89C5C0511B8B6964006F5A3F /* AccessoryView.xib in Resources */,
-				8994718D1B94801800DC0E5E /* resource.bundle in Resources */,
-				8994718A1B947F6500DC0E5E /* MulSelViewCell.xib in Resources */,
-				89C5C0351B8B6953006F5A3F /* LaunchScreen.xib in Resources */,
-				89CE80241B8C8A67008BE863 /* logo.jpg in Resources */,
-				89C5C0321B8B6953006F5A3F /* Images.xcassets in Resources */,
-				899471881B947F6500DC0E5E /* MulSelView.xib in Resources */,
-				89CE80221B8C8421008BE863 /* OneModelVC.xib in Resources */,
+				893ACC431B94A32500BB9B44 /* MulSelView.xib in Resources */,
+				893ACC3A1B94A32500BB9B44 /* OneModelVC.xib in Resources */,
+				893ACC451B94A32500BB9B44 /* MulSelViewCell.xib in Resources */,
+				893ACC461B94A32500BB9B44 /* resource.bundle in Resources */,
+				893ACC341B94A32500BB9B44 /* Info.plist in Resources */,
+				893ACC3C1B94A32500BB9B44 /* OneStringVC.xib in Resources */,
+				893ACC361B94A32500BB9B44 /* logo.jpg in Resources */,
+				893ACC381B94A32500BB9B44 /* MulSelVC.xib in Resources */,
+				893ACC331B94A32500BB9B44 /* Images.xcassets in Resources */,
+				893ACC3E1B94A32500BB9B44 /* AccessoryView.xib in Resources */,
+				893ACC311B94A32500BB9B44 /* LaunchScreen.xib in Resources */,
+				893ACC321B94A32500BB9B44 /* Main.storyboard in Resources */,
+				893ACC481B94A32500BB9B44 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,18 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C5C0501B8B6964006F5A3F /* AccessoryView.swift in Sources */,
-				89C5C0541B8B69B5006F5A3F /* ListTVC.swift in Sources */,
-				8994717E1B9474B200DC0E5E /* InputViewTextField.swift in Sources */,
-				899471871B947F6500DC0E5E /* MulSelView.swift in Sources */,
-				899471891B947F6500DC0E5E /* MulSelViewCell.swift in Sources */,
-				89CE80211B8C8421008BE863 /* OneModelVC.swift in Sources */,
-				899471741B946F7900DC0E5E /* MulSelTF.swift in Sources */,
-				89C5C0521B8B6964006F5A3F /* OneColTF.swift in Sources */,
-				899471711B946DE000DC0E5E /* MulSelVC.swift in Sources */,
-				89C5C02B1B8B6953006F5A3F /* AppDelegate.swift in Sources */,
-				89C5C0571B8B6B39006F5A3F /* OneStringVC.swift in Sources */,
-				89C5C05A1B8B7672006F5A3F /* TextField+PickerView+Common.swift in Sources */,
+				893ACC3F1B94A32500BB9B44 /* InputViewTextField.swift in Sources */,
+				893ACC411B94A32500BB9B44 /* MulSelTF.swift in Sources */,
+				893ACC421B94A32500BB9B44 /* MulSelView.swift in Sources */,
+				893ACC471B94A32500BB9B44 /* OneColTF.swift in Sources */,
+				893ACC301B94A32500BB9B44 /* AppDelegate.swift in Sources */,
+				893ACC3D1B94A32500BB9B44 /* AccessoryView.swift in Sources */,
+				893ACC3B1B94A32500BB9B44 /* OneStringVC.swift in Sources */,
+				893ACC351B94A32500BB9B44 /* ListTVC.swift in Sources */,
+				893ACC371B94A32500BB9B44 /* MulSelVC.swift in Sources */,
+				893ACC391B94A32500BB9B44 /* OneModelVC.swift in Sources */,
+				893ACC401B94A32500BB9B44 /* TextField+PickerView+Common.swift in Sources */,
+				893ACC441B94A32500BB9B44 /* MulSelViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C5C0411B8B6953006F5A3F /* TextField_PickerViewTests.swift in Sources */,
+				893ACC4B1B94A36400BB9B44 /* TextField_InputViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,20 +336,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		89C5C02E1B8B6953006F5A3F /* Main.storyboard */ = {
+		893ACC0F1B94A32500BB9B44 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89C5C02F1B8B6953006F5A3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		89C5C0331B8B6953006F5A3F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89C5C0341B8B6953006F5A3F /* Base */,
+				893ACC101B94A32500BB9B44 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		893ACC111B94A32500BB9B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893ACC121B94A32500BB9B44 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -454,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "TextField+PickerView/Info.plist";
+				INFOPLIST_FILE = "TextField+InputView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "TextField+InputView";
@@ -468,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "TextField+PickerView/Info.plist";
+				INFOPLIST_FILE = "TextField+InputView/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "TextField+InputView";
@@ -479,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -490,7 +479,8 @@
 				INFOPLIST_FILE = "TextField+PickerViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "TextField+InputViewTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField+PickerView.app/TextField+PickerView";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField+InputView.app/TextField+InputView";
 			};
 			name = Debug;
 		};
@@ -498,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -505,7 +496,7 @@
 				INFOPLIST_FILE = "TextField+PickerViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "TextField+InputViewTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField+PickerView.app/TextField+PickerView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField+InputView.app/TextField+InputView";
 			};
 			name = Release;
 		};
