@@ -1,4 +1,4 @@
-![image](./TextField+PickerView/logo.jpg)
+![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField%2BInputView/logo.jpg)
 <br/><br/>
 
 UITextField+PickerView
@@ -18,11 +18,12 @@ UITextField+PickerView
 ===============
 
 #### 1.添加框架
-将TextField+PickerView文件夹拖拽到您的项目中
+将TextField+PickerView文件夹拖拽到您的项目中<br/>
+请不要自行设计输入框的代码，因为代理已经被框架使用，如果需要代理，请使用API提供的Closure回调。<br/>
 
 <br/><br/>
 #### 2.准备工作
-UITextField请继承PickerTextField
+UITextField请继承OneColTF，
 
 <br/><br/>
 #### 3.功能集成
@@ -71,6 +72,29 @@ UITextField请继承PickerTextField
         
             println("您点击了完成按钮，当前选中第\(row)行，值为\(value)")
         }
+
+
+
+
+<br/><br/><br/>
+模型多选
+===============
+1.输入框继承自MulSelTF<br/>
+2.模型需要遵守MulSelTFDataModelProtocol<br/>
+
+
+          let s1 = Service(title: "翻译", isChecked: true)
+          let s2 = Service(title: "司机", isChecked: true)
+          let s3 = Service(title: "公关", isChecked: true)
+          
+          tf.addMulSelWithModels([s1,s2,s3])
+          
+          tf.doneBtnClickClosure = {(all,checked) in
+            
+            
+         }
+
+
 
 <br/><br/><br/>
 我的事业
