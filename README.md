@@ -1,7 +1,7 @@
 ![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField%2BInputView/logo.jpg)
 <br/><br/>
 
-UITextField+PickerView
+UITextField+InputView
 ===============
 <br/>
 .Swift 1.2<br/>
