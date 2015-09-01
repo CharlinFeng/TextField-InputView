@@ -26,11 +26,8 @@ extension MulSelViewCell{
     static var rid : String {return "MulSelViewCell"}
     
     class func reuseCell(#tableView: UITableView) -> MulSelViewCell{
-        
         var cell: AnyObject? = tableView.dequeueReusableCellWithIdentifier(rid)
-        
         if cell == nil {cell = NSBundle.mainBundle().loadNibNamed(rid, owner: nil, options: nil).first}
-
         return cell as! MulSelViewCell
     }
     

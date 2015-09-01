@@ -35,31 +35,19 @@ class MulSelTF: InputViewTextField {
         msView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, rowH * CGFloat(models.count))
         self.inputView = msView
         
-
         accessoryView.cancelBtnActionClosure={[unowned self] in
-            
             self.endEditing(true)
-            
-            for (var i=0; i<models.count; i++){
-                
-                self.models[i].isChecked = self.tempArray[i]
-            }
-            
+            for (var i=0; i<models.count; i++){self.models[i].isChecked = self.tempArray[i]}
             self.msView.tableView.reloadData()
-            
-            
         }
         
         accessoryView.doneBtnActionClosure={[unowned self] in
             
             self.endEditing(true)
-            
             let allModels = models
-            
             var checkedModels: [MulSelTFDataModelProtocol] = []
             checkedModels = allModels.filter{$0.isChecked}
             self.doneBtnClickClosure?(allModels: allModels,checkedModels: checkedModels)
-           
         }
     }
     

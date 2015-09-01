@@ -52,14 +52,8 @@ extension MulSelView: UITableViewDataSource,UITableViewDelegate{
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.cellForRowAtIndexPath(indexPath) as! MulSelViewCell
-        cell.toggle()
-    }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {let cell = tableView.cellForRowAtIndexPath(indexPath) as! MulSelViewCell;cell.toggle()}
     
-    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.cellForRowAtIndexPath(indexPath) as! MulSelViewCell
-        cell.toggle()
-    }
+    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {let cell = tableView.cellForRowAtIndexPath(indexPath) as! MulSelViewCell;cell.toggle()}
     
 }
