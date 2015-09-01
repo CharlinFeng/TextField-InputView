@@ -1,15 +1,15 @@
 //
-//  TextField_InputViewTests.swift
-//  TextField+InputViewTests
+//  UITextField_InputViewTests.swift
+//  UITextField+InputViewTests
 //
-//  Created by 成林 on 15/8/24.
+//  Created by 冯成林 on 15/9/1.
 //  Copyright (c) 2015年 冯成林. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class TextField_InputViewTests: XCTestCase {
+class UITextField_InputViewTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "89C5C0241B8B6953006F5A3F"
-               BuildableName = "TextField+PickerView.app"
-               BlueprintName = "TextField+PickerView"
-               ReferencedContainer = "container:TextField+PickerView.xcodeproj">
+               BlueprintIdentifier = "89044DA91B954D59000F3891"
+               BuildableName = "UITextField+InputView.app"
+               BlueprintName = "UITextField+InputView"
+               ReferencedContainer = "container:UITextField+InputView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "89C5C0391B8B6953006F5A3F"
-               BuildableName = "TextField+PickerViewTests.xctest"
-               BlueprintName = "TextField+PickerViewTests"
-               ReferencedContainer = "container:TextField+PickerView.xcodeproj">
+               BlueprintIdentifier = "89044DBE1B954D59000F3891"
+               BuildableName = "UITextField+InputViewTests.xctest"
+               BlueprintName = "UITextField+InputViewTests"
+               ReferencedContainer = "container:UITextField+InputView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "89C5C0391B8B6953006F5A3F"
-               BuildableName = "TextField+PickerViewTests.xctest"
-               BlueprintName = "TextField+PickerViewTests"
-               ReferencedContainer = "container:TextField+PickerView.xcodeproj">
+               BlueprintIdentifier = "89044DBE1B954D59000F3891"
+               BuildableName = "UITextField+InputViewTests.xctest"
+               BlueprintName = "UITextField+InputViewTests"
+               ReferencedContainer = "container:UITextField+InputView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "89C5C0241B8B6953006F5A3F"
-            BuildableName = "TextField+InputView.app"
-            BlueprintName = "TextField+InputView"
-            ReferencedContainer = "container:TextField+InputView.xcodeproj">
+            BlueprintIdentifier = "89044DA91B954D59000F3891"
+            BuildableName = "UITextField+InputView.app"
+            BlueprintName = "UITextField+InputView"
+            ReferencedContainer = "container:UITextField+InputView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "89C5C0241B8B6953006F5A3F"
-            BuildableName = "TextField+InputView.app"
-            BlueprintName = "TextField+InputView"
-            ReferencedContainer = "container:TextField+InputView.xcodeproj">
+            BlueprintIdentifier = "89044DA91B954D59000F3891"
+            BuildableName = "UITextField+InputView.app"
+            BlueprintName = "UITextField+InputView"
+            ReferencedContainer = "container:UITextField+InputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "89C5C0241B8B6953006F5A3F"
-            BuildableName = "TextField+PickerView.app"
-            BlueprintName = "TextField+PickerView"
-            ReferencedContainer = "container:TextField+PickerView.xcodeproj">
+            BlueprintIdentifier = "89044DA91B954D59000F3891"
+            BuildableName = "UITextField+InputView.app"
+            BlueprintName = "UITextField+InputView"
+            ReferencedContainer = "container:UITextField+InputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

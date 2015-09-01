@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TextField+InputView.xcscheme</key>
+		<key>UITextField+InputView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>89C5C0241B8B6953006F5A3F</key>
+		<key>89044DA91B954D59000F3891</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89C5C0391B8B6953006F5A3F</key>
+		<key>89044DBE1B954D59000F3891</key>
 		<dict>
 			<key>primary</key>
 			<true/>

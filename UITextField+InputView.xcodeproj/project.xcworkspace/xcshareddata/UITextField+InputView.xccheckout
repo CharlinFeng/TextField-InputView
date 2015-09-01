@@ -5,23 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5443B2A0-FCF1-44B8-8190-B0211AEF4996</string>
+	<string>30A3CB9D-E635-4001-B3EA-289A7D70D6AB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TextField+PickerView</string>
+	<string>UITextField+InputView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E8D247EF71CA154687D7251215624BE87CA6B8E8</key>
-		<string>https://github.com/nsdictionary/TextField-PickerView.git</string>
+		<string>https://github.com/CharlinFeng/TextField-InputView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TextField+PickerView.xcodeproj</string>
+	<string>UITextField+InputView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E8D247EF71CA154687D7251215624BE87CA6B8E8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/nsdictionary/TextField-PickerView.git</string>
+	<string>https://github.com/CharlinFeng/TextField-InputView.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>E8D247EF71CA154687D7251215624BE87CA6B8E8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>TextField+PickerView</string>
+			<string>TextField-InputView</string>
 		</dict>
 	</array>
 </dict>
