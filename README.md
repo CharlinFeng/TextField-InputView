@@ -113,7 +113,7 @@ UITextField请继承OneColTF，
 ![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/3.gif)
 
 <br/><br/>
-#### 5.集成效果三：必选模式
+#### 5.集成效果三：必选模式（如：翻译为必选，不可取消！设置模型的isRequire=trued即可）
 ![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/4.gif)
 
 <br/><br/>
