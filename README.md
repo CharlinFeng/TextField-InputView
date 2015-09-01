@@ -74,6 +74,11 @@ UITextField请继承OneColTF，
         }
 
 
+#### 5.集成效果
+![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/0.gif)
+
+
+
 
 
 <br/><br/><br/>
@@ -83,17 +88,37 @@ UITextField请继承OneColTF，
 2.模型需要遵守MulSelTFDataModelProtocol<br/>
 
 
-          let s1 = Service(title: "翻译", isChecked: true)
-          let s2 = Service(title: "司机", isChecked: true)
-          let s3 = Service(title: "公关", isChecked: true)
+         let s1 = Service(title: "翻译", isChecked: true,isRequired:true)
+         let s2 = Service(title: "司机", isChecked: false,isRequired:false)
+         let s3 = Service(title: "公关", isChecked: false,isRequired:false)
+         let s4 = Service(title: "导游", isChecked: false,isRequired:false)
+         let s5 = Service(title: "商务", isChecked: false,isRequired:false)
           
-          tf.addMulSelWithModels([s1,s2,s3])
+          tf.addMulSelWithModels([s1,s2,s3,s4,s5])
           
           tf.doneBtnClickClosure = {(all,checked) in
             
             
          }
 
+
+其中，isChecked表示默认就选中，isRequired表示必选，且isRequired=true下一会有isChecked=true
+
+<br/><br/>
+#### 3.集成效果一：普通集成
+![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/1.gif)
+
+<br/><br/>
+#### 4.集成效果二：更多的选项（可滑动）
+![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/3.gif)
+
+<br/><br/>
+#### 5.集成效果三：必选模式
+![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/4.gif)
+
+<br/><br/>
+#### 6.集成效果四：取消模式
+![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/5.gif)
 
 
 <br/><br/><br/>
