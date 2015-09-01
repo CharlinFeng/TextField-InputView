@@ -10,6 +10,7 @@ import UIKit
 
 protocol MulSelTFDataModelProtocol: PickerDataModelProtocol{
     var isChecked: Bool!{get set}
+    var isRequired: Bool!{get set}
 }
 
 
@@ -19,9 +20,8 @@ class MulSelTF: InputViewTextField {
     var doneBtnClickClosure: ((allModels: [MulSelTFDataModelProtocol], checkedModels: [MulSelTFDataModelProtocol])->Void)!
     
     private var models: [MulSelTFDataModelProtocol]!
-    
     lazy var msView = {MulSelView.instance()}()
-    
+    private lazy var tempArray: [Bool] = []
     var rowH: CGFloat = 72
     
    
@@ -39,6 +39,15 @@ class MulSelTF: InputViewTextField {
         accessoryView.cancelBtnActionClosure={[unowned self] in
             
             self.endEditing(true)
+            
+            for (var i=0; i<models.count; i++){
+                
+                self.models[i].isChecked = self.tempArray[i]
+            }
+            
+            self.msView.tableView.reloadData()
+            
+            
         }
         
         accessoryView.doneBtnActionClosure={[unowned self] in
@@ -48,15 +57,16 @@ class MulSelTF: InputViewTextField {
             let allModels = models
             
             var checkedModels: [MulSelTFDataModelProtocol] = []
-            
-            for (i,p) in enumerate(allModels){
-            
-                if p.isChecked! {checkedModels.append(p)}
-            }
-        
+            checkedModels = allModels.filter{$0.isChecked}
             self.doneBtnClickClosure?(allModels: allModels,checkedModels: checkedModels)
            
         }
+    }
+    
+    override func textFieldDidBeginEditing(textField: UITextField) {
+        super.textFieldDidBeginEditing(textField)
+        tempArray = models.map{$0.isChecked!}
+        msView.tableView.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 0), atScrollPosition: UITableViewScrollPosition.Top, animated: false)
     }
 
 

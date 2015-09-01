@@ -13,6 +13,9 @@ class MulSelViewCell: UITableViewCell {
     @IBOutlet weak var showLabel: UILabel!
     
     @IBOutlet weak var checkImgV: UIImageView!
+    @IBOutlet weak var imgVWC: NSLayoutConstraint!
+    
+    
     
     var dataModel: MulSelTFDataModelProtocol!{didSet{dataFill()}}
 }
@@ -35,19 +38,23 @@ extension MulSelViewCell{
         super.awakeFromNib()
         checkImgV.image = UIImage(named: "resource.bundle/uncheck")
         checkImgV.highlightedImage = UIImage(named: "resource.bundle/check")
-
         self.selectionStyle = UITableViewCellSelectionStyle.None
+        checkImgV.layer.cornerRadius = imgVWC.constant * 0.5
+        checkImgV.layer.masksToBounds=true
     }
     
     
     func dataFill(){
         if dataModel == nil {return}
         showLabel.text = dataModel?.title
-        checkImgV.highlighted = dataModel.isChecked
+        if dataModel.isRequired! {checkImgV.highlighted=true}
+        else{checkImgV.highlighted = dataModel.isChecked}
+        
     }
     
     
     func toggle(){
+        if dataModel.isRequired! {return}
         dataModel.isChecked = !dataModel.isChecked
         dataFill()
     }

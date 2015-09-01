@@ -13,43 +13,31 @@ class Service: MulSelTFDataModelProtocol {
     
     var title: String!
     var isChecked: Bool!
+    var isRequired: Bool!
     
-    init(title: String,isChecked: Bool){
+    init(title: String,isChecked: Bool,isRequired: Bool){
         
         self.title = title
         self.isChecked = isChecked
+        self.isRequired=isRequired
     }
 }
-
 
 class MulSelVC: UIViewController {
     
     @IBOutlet weak var tf: MulSelTF!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s1 = Service(title: "翻译", isChecked: true)
-        let s2 = Service(title: "司机", isChecked: true)
-        let s3 = Service(title: "公关", isChecked: true)
-        let s4 = Service(title: "翻译", isChecked: false)
-        let s5 = Service(title: "司机", isChecked: true)
-        let s6 = Service(title: "公关", isChecked: false)
+        let s1 = Service(title: "翻译", isChecked: true,isRequired:true)
+        let s2 = Service(title: "司机", isChecked: false,isRequired:false)
+        let s3 = Service(title: "公关", isChecked: true,isRequired:false)
         
-        
-        
-        tf.addMulSelWithModels([s1,s2,s3,s4,s5,s6])
+        tf.addMulSelWithModels([s1,s2,s3])
         
         tf.doneBtnClickClosure = {(all,checked) in
             
-            
-        
         }
-
-        
     }
-    
-    
-    
 }

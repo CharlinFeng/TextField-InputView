@@ -45,11 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../TextField+InputView/AppDelegate.swift"; sourceTree = "<group>"; };
 		893ACC101B94A32500BB9B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		893ACC121B94A32500BB9B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		893ACC131B94A32500BB9B44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		893ACC141B94A32500BB9B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893ACC131B94A32500BB9B44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../TextField+InputView/Images.xcassets"; sourceTree = "<group>"; };
+		893ACC141B94A32500BB9B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../TextField+InputView/Info.plist"; sourceTree = "<group>"; };
 		893ACC151B94A32500BB9B44 /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
 		893ACC171B94A32500BB9B44 /* MulSelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulSelVC.swift; sourceTree = "<group>"; };
 		893ACC181B94A32500BB9B44 /* MulSelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MulSelVC.xib; sourceTree = "<group>"; };
@@ -96,11 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				893ACC1D1B94A32500BB9B44 /* TextField+InputView */,
-				893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */,
-				893ACC0F1B94A32500BB9B44 /* LaunchScreen.xib */,
-				893ACC111B94A32500BB9B44 /* Main.storyboard */,
-				893ACC131B94A32500BB9B44 /* Images.xcassets */,
-				893ACC141B94A32500BB9B44 /* Info.plist */,
 				893ACC151B94A32500BB9B44 /* ListTVC.swift */,
 				893ACC171B94A32500BB9B44 /* MulSelVC.swift */,
 				893ACC181B94A32500BB9B44 /* MulSelVC.xib */,
@@ -165,6 +160,11 @@
 		893ACC2D1B94A32500BB9B44 /* TextField+InputViewTests */ = {
 			isa = PBXGroup;
 			children = (
+				893ACC0E1B94A32500BB9B44 /* AppDelegate.swift */,
+				893ACC0F1B94A32500BB9B44 /* LaunchScreen.xib */,
+				893ACC111B94A32500BB9B44 /* Main.storyboard */,
+				893ACC131B94A32500BB9B44 /* Images.xcassets */,
+				893ACC141B94A32500BB9B44 /* Info.plist */,
 				893ACC2E1B94A32500BB9B44 /* Info.plist */,
 				893ACC4A1B94A36400BB9B44 /* TextField_InputViewTests.swift */,
 			);
@@ -338,6 +338,7 @@
 				893ACC101B94A32500BB9B44 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = "../TextField+InputView";
 			sourceTree = "<group>";
 		};
 		893ACC111B94A32500BB9B44 /* Main.storyboard */ = {
@@ -346,6 +347,7 @@
 				893ACC121B94A32500BB9B44 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../TextField+InputView";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
