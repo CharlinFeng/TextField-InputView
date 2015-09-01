@@ -102,7 +102,7 @@ UITextField请继承OneColTF，
          }
 
 
-其中，isChecked表示默认就选中，isRequired表示必选，且isRequired=true下一会有isChecked=true
+其中，isChecked表示默认就选中，isRequired表示必选，且isRequired=true下一定会导致isChecked=true
 
 <br/><br/>
 #### 3.集成效果一：普通集成
