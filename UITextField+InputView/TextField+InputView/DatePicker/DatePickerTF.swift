@@ -11,7 +11,7 @@ import UIKit
 class DatePickerTF: InputViewTextField {
 
     var pattern: String!{didSet{patternKVO()}}
-    var selectedDateClosure: ((datePicker: UIDatePicker, selectedDateString: String)->Void)!
+    var selectedDateClosure: ((datePicker: UIDatePicker, selectedDateString: String, selectedDateTimeInterval: NSTimeInterval)->Void)!
     var selectedDateString: String!
     var selectedDateTimeInterval: NSTimeInterval!
     private var datePicker: UIDatePicker!
@@ -44,7 +44,7 @@ extension DatePickerTF{
         
         selectedDateString = date.dateFormatter(pattern);
         
-        selectedDateClosure?(datePicker: datePicker,selectedDateString: selectedDateString)
+        selectedDateClosure?(datePicker: datePicker,selectedDateString: selectedDateString, selectedDateTimeInterval: selectedDateTimeInterval)
         
         self.text = selectedDateString
     }
