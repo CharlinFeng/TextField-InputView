@@ -31,7 +31,14 @@ class InputViewTextField: UITextField {
     
     /**  视图准备  */
     func viewPrepare(){
+        
         self.inputAccessoryView = accessoryView
+        accessoryView.doneBtnActionClosure={
+            self.endEditing(true)
+        }
+        accessoryView.cancelBtnActionClosure={
+            self.endEditing(true)
+        }
         self.delegate = self
     }
 }

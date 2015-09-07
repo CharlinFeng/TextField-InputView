@@ -31,6 +31,9 @@
 		89044DF71B954D98000F3891 /* OneStringVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89044DF01B954D98000F3891 /* OneStringVC.xib */; };
 		89044DFC1B954DCD000F3891 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89044DF81B954DCD000F3891 /* LaunchScreen.xib */; };
 		89044DFD1B954DCD000F3891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89044DFA1B954DCD000F3891 /* Main.storyboard */; };
+		8998E2441B9D373E00E20A9F /* DatePickerTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998E2431B9D373E00E20A9F /* DatePickerTF.swift */; };
+		8998E2471B9D41C800E20A9F /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998E2451B9D41C800E20A9F /* DatePickerVC.swift */; };
+		8998E2481B9D41C800E20A9F /* DatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8998E2461B9D41C800E20A9F /* DatePickerVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		89044DF01B954D98000F3891 /* OneStringVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneStringVC.xib; sourceTree = "<group>"; };
 		89044DF91B954DCD000F3891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		89044DFB1B954DCD000F3891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8998E2431B9D373E00E20A9F /* DatePickerTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerTF.swift; sourceTree = "<group>"; };
+		8998E2451B9D41C800E20A9F /* DatePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		8998E2461B9D41C800E20A9F /* DatePickerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,8 @@
 				89044DEE1B954D98000F3891 /* OneModelVC.xib */,
 				89044DEF1B954D98000F3891 /* OneStringVC.swift */,
 				89044DF01B954D98000F3891 /* OneStringVC.xib */,
+				8998E2451B9D41C800E20A9F /* DatePickerVC.swift */,
+				8998E2461B9D41C800E20A9F /* DatePickerVC.xib */,
 				89044DF81B954DCD000F3891 /* LaunchScreen.xib */,
 				89044DFA1B954DCD000F3891 /* Main.storyboard */,
 				89044DAD1B954D59000F3891 /* Supporting Files */,
@@ -162,6 +170,7 @@
 				89044DD01B954D7A000F3891 /* Common */,
 				89044DD51B954D7A000F3891 /* MulSel */,
 				89044DDD1B954D7A000F3891 /* OneCol */,
+				8998E2421B9D370300E20A9F /* DatePicker */,
 			);
 			path = "TextField+InputView";
 			sourceTree = "<group>";
@@ -204,6 +213,14 @@
 				89044DDE1B954D7A000F3891 /* OneColTF.swift */,
 			);
 			path = OneCol;
+			sourceTree = "<group>";
+		};
+		8998E2421B9D370300E20A9F /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8998E2431B9D373E00E20A9F /* DatePickerTF.swift */,
+			);
+			path = DatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +306,7 @@
 				89044DF71B954D98000F3891 /* OneStringVC.xib in Resources */,
 				89044DFD1B954DCD000F3891 /* Main.storyboard in Resources */,
 				89044DF31B954D98000F3891 /* MulSelVC.xib in Resources */,
+				8998E2481B9D41C800E20A9F /* DatePickerVC.xib in Resources */,
 				89044DE71B954D7A000F3891 /* MulSelViewCell.xib in Resources */,
 				89044DE51B954D7A000F3891 /* MulSelView.xib in Resources */,
 				89044DE01B954D7A000F3891 /* AccessoryView.xib in Resources */,
@@ -314,8 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89044DB21B954D59000F3891 /* ViewController.swift in Sources */,
+				8998E2471B9D41C800E20A9F /* DatePickerVC.swift in Sources */,
 				89044DF61B954D98000F3891 /* OneStringVC.swift in Sources */,
 				89044DF11B954D98000F3891 /* ListTVC.swift in Sources */,
+				8998E2441B9D373E00E20A9F /* DatePickerTF.swift in Sources */,
 				89044DE41B954D7A000F3891 /* MulSelView.swift in Sources */,
 				89044DE31B954D7A000F3891 /* MulSelTF.swift in Sources */,
 				89044DE91B954D7A000F3891 /* OneColTF.swift in Sources */,
@@ -525,6 +545,7 @@
 				89044DCB1B954D59000F3891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89044DCC1B954D59000F3891 /* Build configuration list for PBXNativeTarget "UITextField+InputViewTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +554,7 @@
 				89044DCE1B954D59000F3891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

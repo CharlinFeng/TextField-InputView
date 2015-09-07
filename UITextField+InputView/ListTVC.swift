@@ -13,7 +13,7 @@ class ListTVC: UITableViewController {
 
     let rid = "rid"
 
-    let dataList = ["单列+原始值","单列+模型值","模型多选","更多功能请期待"]
+    let dataList = ["单列+原始值","单列+模型值","模型多选","时间选取","更多功能请期待"]
     
 }
 
@@ -61,6 +61,8 @@ extension ListTVC{
             vc = OneModelVC(nibName:"OneModelVC",bundle:nil)
         }else if indexPath.row == 2{
             vc = MulSelVC(nibName:"MulSelVC",bundle:nil)
+        }else if indexPath.row == 3{
+            vc = DatePickerVC(nibName:"DatePickerVC",bundle:nil)
         }
         
         vc.title = dataList[indexPath.row]
