@@ -153,5 +153,6 @@ UITextField请继承OneColTF，
 我的事业
 ===============
 西成的事业，渺小而艰难的求生存。前期我们专做全国的移动app外包。如果您能在信息上援助我们，我们万分感谢您的帮助！<br/>
-西成：http://ios-android.cn <br/>
-我的个人微博：http://weibo.com/charlin2015/<br/>
+西成：[http://ios-android.cn](http://ios-android.cn) <br/>
+我的个人微博：[http://weibo.com/charlin2015/](http://weibo.com/charlin2015/)<br/>
+GitHub公告：[信息公告牌](https://github.com/CharlinFeng/Show)
