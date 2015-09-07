@@ -126,17 +126,17 @@ UITextField请继承OneColTF，
 <br/><br/><br/>
 时间选取
 ===============
-1.支持xib，支持代码。<br/><br/>
-2.请继承自DatePickerTF即可。<br/><br/>
-3.设置格式化时间的patten，如<br/><br/>
+#### 1.支持xib，支持代码。<br/><br/>
+#### 2.请继承自DatePickerTF即可。<br/><br/>
+#### 3.设置格式化时间的patten，如<br/><br/>
 
         tf.pattern = "yyyy-MM-dd"
 
-4.支持手动设置自定义时间值：<br/><br/>
+#### 4.支持手动设置自定义时间值：<br/><br/>
 
         tf.setDateTimeInterval(1340199504)
         
-5.支持选中事件回调：<br/><br/>
+#### 5.支持选中事件回调：<br/><br/>
 
         tf.selectedDateClosure = { (picker,dateString,dateInterval) in
         
