@@ -22,6 +22,13 @@ class DatePickerTF: InputViewTextField {
 
 extension DatePickerTF{
     
+    override func awakeFromNib() {
+        
+        super.awakeFromNib()
+        
+        accessoryView.msgLabel.text = "请您滑动控件以选取时间"
+    }
+    
     func patternKVO(){
         
         accessoryView.hideCancelBtn=true
