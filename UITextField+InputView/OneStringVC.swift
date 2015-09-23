@@ -24,9 +24,9 @@ class OneStringVC: UIViewController {
         
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
-        println("选择值：\(tf.selectedPickerViewValue)")
+        print("选择值：\(tf.selectedPickerViewValue)")
     }
  
 }

@@ -20,13 +20,13 @@ class DatePickerVC: UIViewController {
         tf.setDateTimeInterval(1340199504)
         tf.selectedDateClosure = { (picker,dateString,dateInterval) in
         
-            println("\(picker),\(dateString),\(dateInterval)")
+            print("\(picker),\(dateString),\(dateInterval)")
         }
     }
 
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
-        println("\(tf.selectedDateString),\(tf.selectedDateTimeInterval)")
+        print("\(tf.selectedDateString),\(tf.selectedDateTimeInterval)")
     }
 
 }

@@ -82,7 +82,6 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     }
     
     
-    
     private func bgColorSet(){pickerView.backgroundColor = pickerViewBgColor}
     private func msgSet(){accessoryView.msgLabel.text = message}
     private func removeSet(){if removeAccessoryView {self.inputAccessoryView = nil}}
@@ -95,7 +94,7 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
         return isModelData ? models.count : titles.count
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return isModelData ? models[row].title : titles[row]
     }
     
@@ -108,7 +107,8 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     override func textFieldDidBeginEditing(textField: UITextField) {
         super.textFieldDidBeginEditing(textField)
-        if text.isEmpty {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
+        
+        if text == nil || text?.characters.count==0 {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
     }
     
     

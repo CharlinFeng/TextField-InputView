@@ -32,7 +32,7 @@ extension ListTVC{
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = (tableView.dequeueReusableCellWithIdentifier(rid) as? UITableViewCell) ?? UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: rid)
+        let cell = tableView.dequeueReusableCellWithIdentifier(rid) ?? UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: rid)
         
         cell.textLabel?.text = dataList[indexPath.row]
         

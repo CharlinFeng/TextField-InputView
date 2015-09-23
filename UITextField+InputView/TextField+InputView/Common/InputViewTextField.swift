@@ -22,7 +22,7 @@ class InputViewTextField: UITextField {
         self.viewPrepare()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         //视图准备
@@ -52,7 +52,7 @@ extension InputViewTextField: UITextFieldDelegate{
     func textFieldDidEndEditing(textField: UITextField) {
         textFieldDidEndEditClosure?(textField: textField)
     }
-    override func caretRectForPosition(position: UITextPosition!) -> CGRect {return CGRectZero}
+    override func caretRectForPosition(position: UITextPosition) -> CGRect {return CGRectZero}
     
     
 }
