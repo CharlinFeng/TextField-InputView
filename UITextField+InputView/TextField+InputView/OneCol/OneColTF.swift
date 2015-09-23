@@ -106,6 +106,7 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     }
     
     override func textFieldDidBeginEditing(textField: UITextField) {
+        
         super.textFieldDidBeginEditing(textField)
         
         if text == nil || text?.characters.count==0 {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
