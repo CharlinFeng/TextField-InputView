@@ -12,9 +12,9 @@ class MulSelTFDataModel: PickerDataModel{
     var isChecked: Bool!
     var isRequired: Bool!
     
-    init(title: String!, isChecked: Bool!, isRequired: Bool!){
+    init(title: String!, isChecked: Bool!, isRequired: Bool!, modelObj: AnyObject!){
         
-        super.init(title: title)
+        super.init(title: title, modelObj: modelObj)
         self.isChecked = isChecked
         self.isRequired = isRequired
     }

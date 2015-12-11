@@ -14,8 +14,10 @@ let BgColor = UIColor(red: 41, green: 41, blue: 41, alpha: 0.75)
 class PickerDataModel{
     
     var title: String!
+    var modelObj: AnyObject!
     
-    init(title: String!){
+    init(title: String!, modelObj: AnyObject!){
         self.title = title
+        self.modelObj = modelObj
     }
 }

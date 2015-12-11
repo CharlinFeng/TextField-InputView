@@ -13,7 +13,7 @@ class CityModel: PickerDataModel {
     var spell: String!
     
     init(title: String, spell: String){
-        super.init(title: title)
+        super.init(title: title, modelObj: nil)
         self.spell = spell
     }
 }
