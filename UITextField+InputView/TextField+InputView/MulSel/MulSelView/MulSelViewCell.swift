@@ -17,7 +17,7 @@ class MulSelViewCell: UITableViewCell {
     
     
     
-    var dataModel: MulSelTFDataModelProtocol!{didSet{dataFill()}}
+    var dataModel: MulSelTFDataModel!{didSet{dataFill()}}
 }
 
 

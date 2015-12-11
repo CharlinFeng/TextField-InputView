@@ -8,25 +8,32 @@
 
 import UIKit
 
-protocol MulSelTFDataModelProtocol: PickerDataModelProtocol{
-    var isChecked: Bool!{get set}
-    var isRequired: Bool!{get set}
+class MulSelTFDataModel: PickerDataModel{
+    var isChecked: Bool!
+    var isRequired: Bool!
+    
+    init(title: String!, isChecked: Bool!, isRequired: Bool!){
+        
+        super.init(title: title)
+        self.isChecked = isChecked
+        self.isRequired = isRequired
+    }
 }
 
 
 class MulSelTF: InputViewTextField {
     
     /**  API  */
-    var doneBtnClickClosure: ((allModels: [MulSelTFDataModelProtocol], checkedModels: [MulSelTFDataModelProtocol])->Void)!
+    var doneBtnClickClosure: ((allModels: [MulSelTFDataModel], checkedModels: [MulSelTFDataModel])->Void)!
     
-    private var models: [MulSelTFDataModelProtocol]!
+    private var models: [MulSelTFDataModel]!
     lazy var msView = {MulSelView.instance()}()
     private lazy var tempArray: [Bool] = []
     var rowH: CGFloat = 72
     
    
     /**  模型多选  */
-    func addMulSelWithModels(models: [MulSelTFDataModelProtocol]){
+    func addMulSelWithModels(models: [MulSelTFDataModel]){
         
         if self.placeholder == nil {self.placeholder = "请选择 (可多选)"}
     
@@ -45,7 +52,7 @@ class MulSelTF: InputViewTextField {
             
             self.endEditing(true)
             let allModels = models
-            var checkedModels: [MulSelTFDataModelProtocol] = []
+            var checkedModels: [MulSelTFDataModel] = []
             checkedModels = allModels.filter{$0.isChecked}
             self.doneBtnClickClosure?(allModels: allModels,checkedModels: checkedModels)
         }

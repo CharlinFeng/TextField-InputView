@@ -8,13 +8,12 @@
 
 import UIKit
 
-class CityModel: PickerDataModelProtocol {
+class CityModel: PickerDataModel {
     
-    var title: String!
     var spell: String!
     
     init(title: String, spell: String){
-        self.title = title
+        super.init(title: title)
         self.spell = spell
     }
 }

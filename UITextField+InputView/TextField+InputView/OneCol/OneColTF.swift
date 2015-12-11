@@ -23,7 +23,7 @@ class OneColTF: InputViewTextField {
     private var titles: [String]!
     private lazy var pickerView: UIPickerView = {UIPickerView()}()
     /**  model  */
-    private var models: [PickerDataModelProtocol]!
+    private var models: [PickerDataModel]!
     
     /**  common  */
     private var isModelData: Bool = false
@@ -58,7 +58,7 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     
     /**  单列模型  */
-    func addOneColPickerViewWithModels(models: [PickerDataModelProtocol]){
+    func addOneColPickerViewWithModels(models: [PickerDataModel]){
         
         isModelData = true
         

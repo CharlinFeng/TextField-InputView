@@ -12,7 +12,7 @@ class MulSelView: UIView {
     
     var rowH: CGFloat = 72;
     
-    var dataList: [MulSelTFDataModelProtocol]!{didSet{tableView.reloadData()}}
+    var dataList: [MulSelTFDataModel]!{didSet{tableView.reloadData()}}
     
     @IBOutlet weak var tableView: UITableView!
 }

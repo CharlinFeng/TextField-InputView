@@ -9,18 +9,9 @@
 import UIKit
 
 
-class Service: MulSelTFDataModelProtocol {
+class Service: MulSelTFDataModel {
     
-    var title: String!
-    var isChecked: Bool!
-    var isRequired: Bool!
-    
-    init(title: String,isChecked: Bool,isRequired: Bool){
-        
-        self.title = title
-        self.isChecked = isChecked
-        self.isRequired=isRequired
-    }
+
 }
 
 class MulSelVC: UIViewController {
