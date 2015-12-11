@@ -36,7 +36,7 @@ UITextField请继承OneColTF，
 
 
 <br/>
-模型值集成(注：模型没有强行要求，只要满足PickerDataModelProtocol协议的模型均可):
+模型值集成(注：模型没有强行要求，只要传入PickerDataModel模型即可):
 
         let city1 = CityModel(title: "成都市", spell: "ChengDu")
         let city2 = CityModel(title: "南充市", spell: "NanChong")
@@ -85,7 +85,7 @@ UITextField请继承OneColTF，
 模型多选
 ===============
 1.输入框继承自MulSelTF<br/>
-2.模型需要遵守MulSelTFDataModelProtocol<br/>
+2.模型需要传入MulSelTFDataModel模型<br/>
 
 
          let s1 = Service(title: "翻译", isChecked: true,isRequired:true)
