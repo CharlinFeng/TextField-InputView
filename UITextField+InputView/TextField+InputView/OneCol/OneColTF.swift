@@ -16,7 +16,7 @@ class OneColTF: InputViewTextField {
     var message: String!{didSet{msgSet()}}
     var removeAccessoryView: Bool = false{didSet{removeSet()}}
     var selectedPickerViewValue: Any!
-    var selectedAction: ((row: Int)->Void)!
+    var selectedAction: ((tf: InputViewTextField, row: Int, model: PickerDataModel!)->Void)!
     var doneBtnActionClosure: ((row: Int,value: Any!)->Void)!
     
     /**  Inner: orinal  */
@@ -58,7 +58,7 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     
     /**  单列模型  */
-    func addOneColPickerViewWithModels(models: [PickerDataModel]){
+    func addOneColPickerViewWithModels(models: [PickerDataModel]!){
         
         isModelData = true
         
@@ -91,7 +91,8 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return isModelData ? models.count : titles.count
+        
+        return isModelData ? (models?.count ?? 0) : (titles?.count ?? 0)
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
@@ -100,14 +101,14 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
-        selectedAction?(row: row)
-        selectedPickerViewValue = isModelData ? models[row] : titles[row]
-        text = isModelData ? models[row].title : titles[row]
+        selectedAction?(tf: self, row: row, model: models[row])
+        selectedPickerViewValue = isModelData ? models?[row] : titles?[row]
+        text = isModelData ? models?[row].title : titles?[row]
     }
     
-    override func textFieldDidBeginEditing(textField: UITextField) {
-        
-        super.textFieldDidBeginEditing(textField)
+    override func noti_textFieldDidBeginEditing(textField: UITextField) {
+
+        if (models?.count ?? 0) == 0 {return}
         
         if text == nil || text?.characters.count==0 {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
     }

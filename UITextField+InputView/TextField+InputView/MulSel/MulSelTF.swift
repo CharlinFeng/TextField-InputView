@@ -58,8 +58,10 @@ class MulSelTF: InputViewTextField {
         }
     }
     
-    override func textFieldDidBeginEditing(textField: UITextField) {
-        super.textFieldDidBeginEditing(textField)
+
+    
+    override func noti_textFieldDidBeginEditing(textField: UITextField) {
+        
         tempArray = models.map{$0.isChecked!}
         msView.tableView.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 0), atScrollPosition: UITableViewScrollPosition.Top, animated: false)
     }

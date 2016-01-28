@@ -10,9 +10,6 @@ import UIKit
 
 class InputViewTextField: UITextField {
     
-    /**  API  */
-    var textFieldDidBeginEditClosure,textFieldDidEndEditClosure: ((textField: UITextField)->Void)!
-    
     lazy var accessoryView: AccessoryView = {AccessoryView.instance()}()
     
     override init(frame: CGRect) {
@@ -39,19 +36,22 @@ class InputViewTextField: UITextField {
         accessoryView.cancelBtnActionClosure={
             self.endEditing(true)
         }
-        self.delegate = self
+        
+        //添加监听
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "noti_textFieldDidBeginEditing:", name: UITextFieldTextDidBeginEditingNotification, object: self)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "noti_textFieldDidEndEditing:", name: UITextFieldTextDidEndEditingNotification, object: self)
+        
     }
+    
+    deinit{NSNotificationCenter.defaultCenter().removeObserver(self)}
 }
 
 
-extension InputViewTextField: UITextFieldDelegate{
+extension InputViewTextField{
     
-    func textFieldDidBeginEditing(textField: UITextField) {
-        textFieldDidBeginEditClosure?(textField: textField)
-    }
-    func textFieldDidEndEditing(textField: UITextField) {
-        textFieldDidEndEditClosure?(textField: textField)
-    }
+    func noti_textFieldDidBeginEditing(textField: UITextField) {}
+    func noti_textFieldDidEndEditing(textField: UITextField) {}
     override func caretRectForPosition(position: UITextPosition) -> CGRect {return CGRectZero}
     
     

@@ -55,8 +55,7 @@ extension DatePickerTF{
     }
     
     
-    override func textFieldDidBeginEditing(textField: UITextField) {
-        super.textFieldDidBeginEditing(textField)
+    override func noti_textFieldDidBeginEditing(textField: UITextField) {
         assert(pattern != nil, "冯成林提示您：您需要设置tf.pattern属性，比如：yyyy-MM-dd")
         selectedDatePickerRow(datePicker)
     }
