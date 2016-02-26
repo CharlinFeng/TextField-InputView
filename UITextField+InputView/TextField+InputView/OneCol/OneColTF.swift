@@ -101,9 +101,9 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
-        selectedAction?(tf: self, row: row, model: models[row])
         selectedPickerViewValue = isModelData ? models?[row] : titles?[row]
         text = isModelData ? models?[row].title : titles?[row]
+        selectedAction?(tf: self, row: row, model: models[row])
     }
     
     override func noti_textFieldDidBeginEditing(textField: UITextField) {
