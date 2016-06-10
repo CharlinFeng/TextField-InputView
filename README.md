@@ -1,7 +1,8 @@
 ![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField%2BInputView/logo.jpg)
 <br/><br/>
 
-UITextField+InputView (框架已大更新，更强大的时间选取，网络请求考虑)
+
+UITextField+InputView [信息公告牌](https://github.com/CharlinFeng/Show)
 ===============
 <br/>
 .Swift 1.2<br/>
@@ -10,7 +11,8 @@ UITextField+InputView (框架已大更新，更强大的时间选取，网络请
 
 <br/>
 
-##### 注：目前大众功能先做这两个，后续有需要再持续追加
+
+#### (框架已大更新，更强大的时间选取，网络请求考虑)
 
 
 <br/><br/><br/>
@@ -143,19 +145,10 @@ UITextField请继承OneColTF，
             println("\(picker),\(dateString),\(dateInterval)")
         }
 
-#### 5.支持是否允许选取比当前时间更小的时间：<br/><br/>
+#### 6.支持是否允许选取比当前时间更小的时间：<br/><br/>
 直接在xib中将allowPickerEarlier设置为0即可
 
 <br/><br/>
 #### 6.集成效果
 ![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField+InputView/6.gif)
 
-
-
-<br/><br/><br/>
-我的事业
-===============
-西成的事业，渺小而艰难的求生存。前期我们专做全国的移动app外包。如果您能在信息上援助我们，我们万分感谢您的帮助！<br/>
-西成：[http://ios-android.cn](http://ios-android.cn) <br/>
-我的个人微博：[http://weibo.com/charlin2015/](http://weibo.com/charlin2015/)<br/>
-GitHub公告：[信息公告牌](https://github.com/CharlinFeng/Show)
