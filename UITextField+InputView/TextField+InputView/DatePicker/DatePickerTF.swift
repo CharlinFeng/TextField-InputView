@@ -9,8 +9,16 @@
 import UIKit
 
 class DatePickerTF: InputViewTextField {
-
-    var pattern: String!{didSet{patternKVO()}}
+    
+    enum PatternType: Int {
+        case YMD = 0
+    }
+    
+    @IBInspectable var patternType: Int = 0
+    
+    @IBInspectable var allowPickerEarlier: Int = 1
+    
+    var pattern: String!
     var selectedDateClosure: ((datePicker: UIDatePicker, selectedDateString: String, selectedDateTimeInterval: NSTimeInterval)->Void)!
     var selectedDateString: String!
     var selectedDateTimeInterval: NSTimeInterval!
@@ -25,6 +33,10 @@ extension DatePickerTF{
         super.awakeFromNib()
         
         accessoryView.msgLabel.text = "请您滑动控件以选取时间"
+        
+        if patternType == PatternType.YMD.rawValue {pattern = "yyyy-MM-dd"}
+        
+        patternKVO()
     }
     
     func patternKVO(){
@@ -35,7 +47,7 @@ extension DatePickerTF{
         datePicker.backgroundColor = BgColor
         datePicker.datePickerMode=UIDatePickerMode.Date
         datePicker.locale = NSLocale(localeIdentifier: "zh_CH")
-        datePicker.addTarget(self, action: "selectedDatePickerRow:", forControlEvents: UIControlEvents.ValueChanged)
+        datePicker.addTarget(self, action: #selector(selectedDatePickerRow), forControlEvents: UIControlEvents.ValueChanged)
         self.inputView=datePicker
     }
     
@@ -46,6 +58,16 @@ extension DatePickerTF{
         let date = datePicker.date;
         
         selectedDateTimeInterval = date.timeIntervalSince1970
+        
+        let nowDate = NSDate()
+        let now = nowDate.timeIntervalSince1970
+        
+        if selectedDateTimeInterval < now && allowPickerEarlier == 0 {
+        
+            datePicker.setDate(nowDate, animated: true)
+            return
+        }
+        
         
         selectedDateString = date.dateFormatter(pattern);
         

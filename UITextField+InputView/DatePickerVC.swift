@@ -16,7 +16,6 @@ class DatePickerVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tf.pattern = "yyyy-MM-dd"
         tf.setDateTimeInterval(1340199504)
         tf.selectedDateClosure = { (picker,dateString,dateInterval) in
         

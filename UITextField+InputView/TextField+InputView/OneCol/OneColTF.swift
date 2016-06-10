@@ -81,7 +81,6 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
         bgColorSet()
     }
     
-    
     private func bgColorSet(){pickerView.backgroundColor = pickerViewBgColor}
     private func msgSet(){accessoryView.msgLabel.text = message}
     private func removeSet(){if removeAccessoryView {self.inputAccessoryView = nil}}
