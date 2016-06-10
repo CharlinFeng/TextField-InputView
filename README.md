@@ -2,7 +2,7 @@
 <br/><br/>
 
 
-UITextField+InputView [信息公告牌](https://github.com/CharlinFeng/Show)
+UITextField+InputView （[信息公告牌](https://github.com/CharlinFeng/Show)）
 ===============
 <br/>
 .Swift 1.2<br/>
@@ -12,7 +12,7 @@ UITextField+InputView [信息公告牌](https://github.com/CharlinFeng/Show)
 <br/>
 
 
-#### (框架已大更新，更强大的时间选取，网络请求考虑)
+#### 框架已大更新，更强大的时间选取，网络请求考虑
 
 
 <br/><br/><br/>
