@@ -1,7 +1,7 @@
 ![image](https://github.com/CharlinFeng/Resource/blob/master/UITextField%2BInputView/logo.jpg)
 <br/><br/>
 
-UITextField+InputView
+UITextField+InputView (框架已大更新，更强大的时间选取，网络请求考虑)
 ===============
 <br/>
 .Swift 1.2<br/>
@@ -14,7 +14,7 @@ UITextField+InputView
 
 
 <br/><br/><br/>
-单行模型选取集成
+单行模型选取集成（框架已考虑网络请求）
 ===============
 
 #### 1.添加框架
@@ -128,9 +128,9 @@ UITextField请继承OneColTF，
 ===============
 #### 1.支持xib，支持代码。<br/><br/>
 #### 2.请继承自DatePickerTF即可。<br/><br/>
-#### 3.设置格式化时间的patten，如<br/><br/>
+#### 3.设置格式化时间的patten，直接在xib的patternType属性中填写0即可（默认为0）<br/><br/>
 
-        tf.pattern = "yyyy-MM-dd"
+
 
 #### 4.支持手动设置自定义时间值：<br/><br/>
 
@@ -142,6 +142,9 @@ UITextField请继承OneColTF，
         
             println("\(picker),\(dateString),\(dateInterval)")
         }
+
+#### 5.支持是否允许选取比当前时间更小的时间：<br/><br/>
+直接在xib中将allowPickerEarlier设置为0即可
 
 <br/><br/>
 #### 6.集成效果
