@@ -11,6 +11,8 @@ import UIKit
 class InputViewTextField: UITextField {
     
     lazy var accessoryView: AccessoryView = {AccessoryView.instance()}()
+    private lazy var btn = UIButton()
+    var emptyDataClickClosure:(Void->Void)?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -38,13 +40,25 @@ class InputViewTextField: UITextField {
         }
         
         //添加监听
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "noti_textFieldDidBeginEditing:", name: UITextFieldTextDidBeginEditingNotification, object: self)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(noti_textFieldDidBeginEditing), name: UITextFieldTextDidBeginEditingNotification, object: self)
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "noti_textFieldDidEndEditing:", name: UITextFieldTextDidEndEditingNotification, object: self)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(noti_textFieldDidEndEditing), name: UITextFieldTextDidEndEditingNotification, object: self)
         
+        btn.addTarget(self, action: #selector(btnClick), forControlEvents: UIControlEvents.TouchUpInside)
+        
+        addSubview(btn)
+        
+        placeholder = "正在加载数据..."
     }
     
+    
     deinit{NSNotificationCenter.defaultCenter().removeObserver(self)}
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        btn.frame = bounds
+    }
 }
 
 
@@ -54,5 +68,13 @@ extension InputViewTextField{
     func noti_textFieldDidEndEditing(textField: UITextField) {}
     override func caretRectForPosition(position: UITextPosition) -> CGRect {return CGRectZero}
     
+    func btnClick(){emptyDataClickClosure?()}
     
+    func dataPrepare(){
+        
+        assert(NSThread.isMainThread(), "请在主线程中执行方法")
+        
+        btn.hidden = true
+        placeholder = "请选择"
+    }
 }

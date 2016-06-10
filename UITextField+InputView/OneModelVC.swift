@@ -31,9 +31,16 @@ class OneModelVC: UIViewController {
         let city2 = CityModel(title: "南充市", spell: "NanChong")
         let city3 = CityModel(title: "南部县", spell: "NanBu")
 
-        /**  一句代码安装  */
-        tf.addOneColPickerViewWithModels([city1,city2,city3])
+        self.tf.emptyDataClickClosure = {
         
+            print("正在模拟下载数据，请稍等5秒")
+        }
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW,Int64(5 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
+            /**  一句代码安装  */
+            self.tf.addOneColPickerViewWithModels([city1,city2,city3])
+        })
+
     }
 
  

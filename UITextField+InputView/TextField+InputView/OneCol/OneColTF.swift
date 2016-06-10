@@ -35,50 +35,24 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     /**  添加一个单列的原始值的pickerView  */
     func addOneColPickerViewWithTitles(titles: [String]){
         
-        isModelData = false
+        dataPrepare()
         
-        if self.placeholder == nil {self.placeholder = "请选择"}
+        isModelData = false
         
         //记录
         self.titles = titles
-        
-        pickerView.dataSource = self
-        pickerView.delegate = self
-        self.inputView = pickerView
-    
-        accessoryView.hideCancelBtn=true
-        accessoryView.doneBtnActionClosure = { [unowned self] in
-        
-            self.endEditing(true)
-            self.doneBtnActionClosure?(row: self.pickerView.selectedRowInComponent(0),value: self.selectedPickerViewValue)
-        }
-        
-        bgColorSet()
     }
     
     
     /**  单列模型  */
     func addOneColPickerViewWithModels(models: [PickerDataModel]!){
         
-        isModelData = true
+        dataPrepare()
         
-        if self.placeholder == nil {self.placeholder = "请选择"}
+        isModelData = true
         
         //记录
         self.models = models
-        
-        pickerView.dataSource = self
-        pickerView.delegate = self
-        self.inputView = pickerView
-        
-        accessoryView.hideCancelBtn=true
-        accessoryView.doneBtnActionClosure = { [unowned self] in
-            
-            self.endEditing(true)
-            self.doneBtnActionClosure?(row: self.pickerView.selectedRowInComponent(0),value: self.selectedPickerViewValue)
-        }
-        
-        bgColorSet()
     }
     
     private func bgColorSet(){pickerView.backgroundColor = pickerViewBgColor}
@@ -112,6 +86,23 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
         if text == nil || text?.characters.count==0 {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
     }
     
+    override func dataPrepare() {
+        
+        super.dataPrepare()
+        
+        pickerView.dataSource = self
+        pickerView.delegate = self
+        self.inputView = pickerView
+        
+        accessoryView.hideCancelBtn=true
+        accessoryView.doneBtnActionClosure = { [unowned self] in
+            
+            self.endEditing(true)
+            self.doneBtnActionClosure?(row: self.pickerView.selectedRowInComponent(0),value: self.selectedPickerViewValue)
+        }
+        
+        bgColorSet()
+    }
     
 
     
