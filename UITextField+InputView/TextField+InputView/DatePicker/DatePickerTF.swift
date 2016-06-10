@@ -32,11 +32,18 @@ extension DatePickerTF{
         
         super.awakeFromNib()
         
-        accessoryView.msgLabel.text = "请您滑动控件以选取时间"
+        dataPrepare()
+        
+        let str = "请您滑动控件以选取时间"
+        
+        accessoryView.msgLabel.text = str
+        
+        placeholder = str
         
         if patternType == PatternType.YMD.rawValue {pattern = "yyyy-MM-dd"}
         
         patternKVO()
+        
     }
     
     func patternKVO(){
