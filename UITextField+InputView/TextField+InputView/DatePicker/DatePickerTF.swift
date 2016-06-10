@@ -62,7 +62,7 @@ extension DatePickerTF{
     /** 选中了时间 */
     func selectedDatePickerRow(datePicker: UIDatePicker){
         
-        let date = datePicker.date;
+        var date = datePicker.date;
         
         selectedDateTimeInterval = date.timeIntervalSince1970
         
@@ -72,7 +72,7 @@ extension DatePickerTF{
         if selectedDateTimeInterval < now && allowPickerEarlier == 0 {
         
             datePicker.setDate(nowDate, animated: true)
-            return
+            date = nowDate
         }
         
         
