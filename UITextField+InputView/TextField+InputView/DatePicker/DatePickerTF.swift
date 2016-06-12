@@ -11,7 +11,12 @@ import UIKit
 class DatePickerTF: InputViewTextField {
     
     enum PatternType: Int {
+        
+        /** 年月日 */
         case YMD = 0
+        
+        /** 月日，时分 */
+        case MD_HM = 1
     }
     
     @IBInspectable var patternType: Int = 0
@@ -40,7 +45,8 @@ extension DatePickerTF{
         
         placeholder = str
         
-        if patternType == PatternType.YMD.rawValue {pattern = "yyyy-MM-dd"}
+        if patternType == PatternType.YMD.rawValue {pattern = "yyyy/MM/dd"}
+        if patternType == PatternType.MD_HM.rawValue {pattern = "YYYY/MM/dd HH:mm"}
         
         patternKVO()
         
@@ -52,7 +58,14 @@ extension DatePickerTF{
         
         datePicker = UIDatePicker()
         datePicker.backgroundColor = BgColor
-        datePicker.datePickerMode=UIDatePickerMode.Date
+        
+        var mode: UIDatePickerMode! = nil
+        
+        if patternType == PatternType.YMD.rawValue {mode = UIDatePickerMode.Date}
+        if patternType == PatternType.MD_HM.rawValue {mode = UIDatePickerMode.DateAndTime}
+        
+        
+        datePicker.datePickerMode = mode
         datePicker.locale = NSLocale(localeIdentifier: "zh_CH")
         datePicker.addTarget(self, action: #selector(selectedDatePickerRow), forControlEvents: UIControlEvents.ValueChanged)
         self.inputView=datePicker
