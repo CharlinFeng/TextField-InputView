@@ -38,8 +38,9 @@ UITextField请继承OneColTF，
 
 
 <br/>
-模型值集成(注：模型没有强行要求，只要传入PickerDataModel模型或者子类即可):
-特别说明：实例化PickerDataModel或子类，有一个modelObj是你的业务模型指针，可以方便你在后续选中某行时处理。
+模型值集成(注：模型没有强行要求，只要传入PickerDataModel模型或者子类即可。
+
+#### 特别说明：实例化PickerDataModel或子类，有一个modelObj是你的业务模型指针，可以方便你在后续选中某行时处理。
 
 
         let city1 = CityModel(title: "成都市", spell: "ChengDu")
