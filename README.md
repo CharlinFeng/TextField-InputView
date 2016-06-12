@@ -131,6 +131,7 @@ UITextField请继承OneColTF，
 #### 1.支持xib，支持代码。<br/><br/>
 #### 2.请继承自DatePickerTF即可。<br/><br/>
 #### 3.设置格式化时间的patten，直接在xib的patternType属性中填写0即可（默认为0）<br/><br/>
+注：0，表示年月日；1表示月日，时分
 
 
 
