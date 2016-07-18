@@ -28,6 +28,7 @@ class OneColTF: InputViewTextField {
     /**  common  */
     private var isModelData: Bool = false
     
+    
 }
 
 extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
@@ -80,8 +81,8 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     }
     
     override func noti_textFieldDidBeginEditing(textField: UITextField) {
-
-        if (models?.count ?? 0) == 0 {return}
+        
+        if (models?.count ?? 0) == 0 && isModelData {return}
         
         if text == nil || text?.characters.count==0 {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
     }
@@ -104,6 +105,6 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
         bgColorSet()
     }
     
-
+    
     
 }
