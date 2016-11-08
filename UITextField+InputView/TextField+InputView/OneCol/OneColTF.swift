@@ -75,6 +75,14 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
+        if isModelData {
+            
+            if row >= (models?.count ?? 0) {return}
+            
+        }else {
+            
+            if row >= (titles?.count ?? 0) {return}
+        }
         selectedPickerViewValue = isModelData ? models?[row] : titles?[row]
         text = isModelData ? models?[row].title : titles?[row]
         selectedAction?(tf: self, row: row, model: models[row])
