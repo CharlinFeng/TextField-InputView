@@ -98,11 +98,14 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
             
         }else {
         
+            var choosedIndex: Int = 999
+            
             if isModelData { //模型数据
                 
                 for (var i=0; i<models?.count ?? 0; i += 1){
                     
                     if (models?[i].title ?? "") == (text ?? "") {
+                        choosedIndex = i
                         pickerView.selectRow(i, inComponent: 0, animated: true)
                     }
                 }
@@ -112,10 +115,16 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
                 for (var i=0; i<titles?.count ?? 0; i += 1){
                     
                     if (titles?[i] ?? "") == (text ?? "") {
+                        choosedIndex = i
                         pickerView.selectRow(i, inComponent: 0, animated: true)
                     }
                 }
                 
+            }
+            
+            if choosedIndex == 999 {
+                text = isModelData ? models.first?.title : titles.first
+                pickerView(pickerView, didSelectRow: 0, inComponent: 0)
             }
         }
     }
