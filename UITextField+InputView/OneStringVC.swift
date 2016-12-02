@@ -19,7 +19,7 @@ class OneStringVC: UIViewController {
         
         print("模拟网络数据请求，此时数据未请求成功")
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW,Int64(3 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW,Int64(1 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
             
             print("网络数据请求成功")
             
@@ -31,6 +31,12 @@ class OneStringVC: UIViewController {
         
             print("没有数据")
         }
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW,Int64(3 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
+            
+            self.tf.text = "广州"
+            
+        })
         
     }
     

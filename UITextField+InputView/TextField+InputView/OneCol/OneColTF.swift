@@ -92,7 +92,32 @@ extension OneColTF: UIPickerViewDelegate,UIPickerViewDataSource{
         
         if (models?.count ?? 0) == 0 && isModelData {return}
         
-        if text == nil || text?.characters.count==0 {pickerView(pickerView, didSelectRow: 0, inComponent: 0)}
+        if text == nil || text?.characters.count==0 {
+            
+            pickerView(pickerView, didSelectRow: 0, inComponent: 0)
+            
+        }else {
+        
+            if isModelData { //模型数据
+                
+                for (var i=0; i<models?.count ?? 0; i += 1){
+                    
+                    if (models?[i].title ?? "") == (text ?? "") {
+                        pickerView.selectRow(i, inComponent: 0, animated: true)
+                    }
+                }
+                
+            }else {
+                
+                for (var i=0; i<titles?.count ?? 0; i += 1){
+                    
+                    if (titles?[i] ?? "") == (text ?? "") {
+                        pickerView.selectRow(i, inComponent: 0, animated: true)
+                    }
+                }
+                
+            }
+        }
     }
     
     override func dataPrepare() {
